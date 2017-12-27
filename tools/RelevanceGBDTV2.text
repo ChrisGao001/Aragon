@@ -1,0 +1,3154 @@
+booster[0]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.183333] yes=7,no=8,missing=7
+			7:[qs_match_product_relev_cate<1] yes=15,no=16,missing=15
+				15:[bm25_12_all_dump<13.7262] yes=31,no=32,missing=31
+					31:leaf=-0.144698
+					32:leaf=-0.0815702
+				16:[qs_attr_sim<0.171752] yes=33,no=34,missing=33
+					33:leaf=-0.0797927
+					34:leaf=0.0457831
+			8:[window_size<7] yes=17,no=18,missing=17
+				17:[q_has_product<1] yes=35,no=36,missing=35
+					35:leaf=-0.183158
+					36:leaf=-0.133793
+				18:[qs_prod_conflict_match_ratio<0.291667] yes=37,no=38,missing=37
+					37:leaf=-0.0666667
+					38:leaf=-0.188206
+		4:[qs_prod_co_click_iter1_norm<0.51822] yes=9,no=10,missing=9
+			9:[qs_img_sim<1.52846] yes=19,no=20,missing=19
+				19:[qs_img_sim<1.29047] yes=39,no=40,missing=39
+					39:leaf=0.0666667
+					40:leaf=-0.0836364
+				20:[window_size<20] yes=41,no=42,missing=41
+					41:leaf=0.0738739
+					42:leaf=-0.0418605
+			10:[qs_pdw_img_sim<1.46568] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.153898] yes=43,no=44,missing=43
+					43:leaf=-0.117241
+					44:leaf=0.111111
+				22:[match_ratio<0.583333] yes=45,no=46,missing=45
+					45:leaf=0.025
+					46:leaf=0.15443
+	2:[qs_prod_co_click_iter1_norm<0.578599] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.267857] yes=11,no=12,missing=11
+			11:[window_size<23] yes=23,no=24,missing=23
+				23:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.125756
+					48:leaf=-0.105882
+				24:[q_product_is_broad<1] yes=49,no=50,missing=49
+					49:leaf=0.054326
+					50:leaf=0.130736
+			12:[qs_prod_conflict_match_ratio<0.708333] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.504528] yes=51,no=52,missing=51
+					51:leaf=-0.124074
+					52:leaf=-0.016699
+				26:[qs_attr_value_sim<0.297814] yes=53,no=54,missing=53
+					53:leaf=-0.164767
+					54:leaf=-0.105882
+		6:[window_size<54] yes=13,no=14,missing=13
+			13:[qs_prod_co_click_iter1_norm<0.865498] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.66323] yes=55,no=56,missing=55
+					55:leaf=0.140174
+					56:leaf=0.170821
+				28:[qs_prod_conflict_match_ratio<0.833333] yes=57,no=58,missing=57
+					57:leaf=0.183765
+					58:leaf=0.00571429
+			14:[qs_attr_value_sim<0.369058] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.64558] yes=59,no=60,missing=59
+					59:leaf=0.0405467
+					60:leaf=0.114085
+				30:[qs_prod_conflict_match_ratio<0.291667] yes=61,no=62,missing=61
+					61:leaf=0.150441
+					62:leaf=0.037931
+booster[1]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_attr_sim<0.341437] yes=7,no=8,missing=7
+			7:[window_size<1] yes=15,no=16,missing=15
+				15:[qs_pdw_img_sim<1.16744] yes=31,no=32,missing=31
+					31:leaf=-0.031065
+					32:leaf=-0.106723
+				16:[qs_product_match_synonyms<1] yes=33,no=34,missing=33
+					33:leaf=-0.126802
+					34:leaf=-0.169839
+			8:[q_has_attr<1] yes=17,no=18,missing=17
+				17:[q_has_product<1] yes=35,no=36,missing=35
+					35:leaf=-0.130442
+					36:leaf=-0.0244839
+				18:[qs_prod_co_click_iter1_norm<0.468891] yes=37,no=38,missing=37
+					37:leaf=-0.0270275
+					38:leaf=0.123034
+		4:[qs_prod_co_click_iter1_norm<0.51822] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.74627] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.263508] yes=39,no=40,missing=39
+					39:leaf=-0.0347591
+					40:leaf=0.053259
+				20:[qs_prod_co_click_iter1_norm<0.423602] yes=41,no=42,missing=41
+					41:leaf=0.124843
+					42:leaf=0.0181337
+			10:[qs_pdw_img_sim<1.46568] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.153898] yes=43,no=44,missing=43
+					43:leaf=-0.107464
+					44:leaf=0.101282
+				22:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=45,no=46,missing=45
+					45:leaf=0.139008
+					46:leaf=-0.00798002
+	2:[qs_prod_conflict_match_ratio<0.464286] yes=5,no=6,missing=5
+		5:[qs_prod_co_click_iter1_norm<0.598988] yes=11,no=12,missing=11
+			11:[window_size<13] yes=23,no=24,missing=23
+				23:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.11393
+					48:leaf=-0.0972689
+				24:[q_product_is_broad<1] yes=49,no=50,missing=49
+					49:leaf=0.049568
+					50:leaf=0.116845
+			12:[window_size<71] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.834341] yes=51,no=52,missing=51
+					51:leaf=0.142896
+					52:leaf=0.166214
+				26:[qs_attr_value_sim<0.372296] yes=53,no=54,missing=53
+					53:leaf=0.0774964
+					54:leaf=0.135474
+		6:[qs_prod_co_click_iter1_norm<0.526027] yes=13,no=14,missing=13
+			13:[qs_prod_conflict_match_ratio<0.708333] yes=27,no=28,missing=27
+				27:[qs_attr_value_sim<0.41479] yes=55,no=56,missing=55
+					55:leaf=-0.0934306
+					56:leaf=-0.0125556
+				28:[qs_pdw_img_sim<1.68262] yes=57,no=58,missing=57
+					57:leaf=-0.14363
+					58:leaf=-0.0836069
+			14:[window_size<5] yes=29,no=30,missing=29
+				29:[q_has_product<1] yes=59,no=60,missing=59
+					59:leaf=-0.0755161
+					60:leaf=0.128722
+				30:[qs_product_match_cidname<1] yes=61,no=62,missing=61
+					61:leaf=0.0559389
+					62:leaf=-0.0610045
+booster[2]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.183333] yes=7,no=8,missing=7
+			7:[qs_match_product_relev_cate<1] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<17.8651] yes=31,no=32,missing=31
+					31:leaf=-0.114696
+					32:leaf=-0.0545722
+				16:[qs_attr_sim<0.770779] yes=33,no=34,missing=33
+					33:leaf=-0.0224677
+					34:leaf=0.141936
+			8:[window_size<48] yes=17,no=18,missing=17
+				17:[bm25_2_dump<12.6007] yes=35,no=36,missing=35
+					35:leaf=-0.112459
+					36:leaf=-0.158937
+				18:[qs_sim_prod_match_ratio<0.0651261] yes=37,no=38,missing=37
+					37:leaf=-0.169255
+					38:leaf=-0.0528687
+		4:[qs_prod_co_click_iter1_norm<0.76588] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.55183] yes=19,no=20,missing=19
+				19:[qs_img_sim<0.133408] yes=39,no=40,missing=39
+					39:leaf=0.0964936
+					40:leaf=-0.0455998
+				20:[qs_prod_conflict_match<1] yes=41,no=42,missing=41
+					41:leaf=0.0827783
+					42:leaf=-0.0994618
+			10:[qs_attr_sim<0.150987] yes=21,no=22,missing=21
+				21:[qs_pdw_img_sim<1.48076] yes=43,no=44,missing=43
+					43:leaf=-0.0733524
+					44:leaf=0.091645
+				22:[match_ratio<0.708333] yes=45,no=46,missing=45
+					45:leaf=0.0325095
+					46:leaf=0.145968
+	2:[qs_prod_co_click_iter1_norm<0.476921] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.225] yes=11,no=12,missing=11
+			11:[window_size<11] yes=23,no=24,missing=23
+				23:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.10269
+					48:leaf=-0.0870432
+				24:[qs_attr_sim<0.30438] yes=49,no=50,missing=49
+					49:leaf=0.00538847
+					50:leaf=0.0641162
+			12:[qs_prod_conflict_match_ratio<0.788889] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.504528] yes=51,no=52,missing=51
+					51:leaf=-0.111469
+					52:leaf=-0.0260496
+				26:[qs_attr_value_sim<0.297814] yes=53,no=54,missing=53
+					53:leaf=-0.142834
+					54:leaf=-0.0903089
+		6:[qs_prod_co_click_iter1_norm<0.820258] yes=13,no=14,missing=13
+			13:[qs_prod_conflict_match_ratio<0.45] yes=27,no=28,missing=27
+				27:[qs_pdw_img_sim<1.6888] yes=55,no=56,missing=55
+					55:leaf=0.105004
+					56:leaf=0.139317
+				28:[qs_prod_co_click_iter1_norm<0.726375] yes=57,no=58,missing=57
+					57:leaf=-0.0157301
+					58:leaf=0.0789435
+			14:[window_size<66] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.68684] yes=59,no=60,missing=59
+					59:leaf=0.143931
+					60:leaf=0.158589
+				30:[qs_attr_value_sim<0.37134] yes=61,no=62,missing=61
+					61:leaf=0.0721301
+					62:leaf=0.126781
+booster[3]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.183333] yes=7,no=8,missing=7
+			7:[qs_attr_sim<0.141683] yes=15,no=16,missing=15
+				15:[window_size<1] yes=31,no=32,missing=31
+					31:leaf=-0.0645575
+					32:leaf=-0.12445
+				16:[q_has_attr<1] yes=33,no=34,missing=33
+					33:leaf=-0.074891
+					34:leaf=0.00429101
+			8:[window_size<48] yes=17,no=18,missing=17
+				17:[bm25_2_dump<12.6007] yes=35,no=36,missing=35
+					35:leaf=-0.10335
+					36:leaf=-0.147513
+				18:[qs_sim_prod_match<1] yes=37,no=38,missing=37
+					37:leaf=-0.157812
+					38:leaf=-0.0498862
+		4:[qs_prod_co_click_iter1_norm<0.51822] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.74627] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.263508] yes=39,no=40,missing=39
+					39:leaf=-0.0328804
+					40:leaf=0.0458926
+				20:[qs_attr_value_sim<0.536956] yes=41,no=42,missing=41
+					41:leaf=0.11103
+					42:leaf=0.0124887
+			10:[qs_pdw_img_sim<1.46568] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.153898] yes=43,no=44,missing=43
+					43:leaf=-0.0940796
+					44:leaf=0.0845719
+				22:[qs_term_co_click_iter1_norm<0.67852] yes=45,no=46,missing=45
+					45:leaf=0.0907748
+					46:leaf=0.13515
+	2:[qs_prod_co_click_iter1_norm<0.598988] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.183333] yes=11,no=12,missing=11
+			11:[window_size<23] yes=23,no=24,missing=23
+				23:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.0968429
+					48:leaf=-0.0847108
+				24:[q_product_is_broad<1] yes=49,no=50,missing=49
+					49:leaf=0.0401374
+					50:leaf=0.103998
+			12:[qs_prod_conflict_match_ratio<0.708333] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.78491] yes=51,no=52,missing=51
+					51:leaf=-0.0643599
+					52:leaf=0.0135041
+				26:[q_has_brand<1] yes=53,no=54,missing=53
+					53:leaf=-0.0798993
+					54:leaf=-0.137063
+		6:[window_size<54] yes=13,no=14,missing=13
+			13:[qs_prod_co_click_iter1_norm<0.865498] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.66323] yes=55,no=56,missing=55
+					55:leaf=0.105752
+					56:leaf=0.133861
+				28:[qs_prod_conflict_match_ratio<0.833333] yes=57,no=58,missing=57
+					57:leaf=0.143307
+					58:leaf=-0.0142154
+			14:[qs_attr_value_sim<0.369058] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.64558] yes=59,no=60,missing=59
+					59:leaf=0.0203081
+					60:leaf=0.0880788
+				30:[qs_term_co_click_iter1_norm<0.523257] yes=61,no=62,missing=61
+					61:leaf=0.071115
+					62:leaf=0.11881
+booster[4]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[window_size<42] yes=7,no=8,missing=7
+			7:[qs_prod_conflict_match_ratio<0.0833333] yes=15,no=16,missing=15
+				15:[q_has_product<1] yes=31,no=32,missing=31
+					31:leaf=-0.0704138
+					32:leaf=0.00154357
+				16:[bm25_2_dump<12.6007] yes=33,no=34,missing=33
+					33:leaf=-0.0945123
+					34:leaf=-0.141401
+			8:[q_has_attr<1] yes=17,no=18,missing=17
+				17:[qs_attr_sim<0.983023] yes=35,no=36,missing=35
+					35:leaf=-0.139084
+					36:leaf=0.0247087
+				18:[qs_attr_sim<0.466375] yes=37,no=38,missing=37
+					37:leaf=-0.0832654
+					38:leaf=0.0317917
+		4:[qs_prod_co_click_iter1_norm<0.76588] yes=9,no=10,missing=9
+			9:[qs_attr_value_sim<0.266926] yes=19,no=20,missing=19
+				19:[window_size<8] yes=39,no=40,missing=39
+					39:leaf=0.0371676
+					40:leaf=-0.0729124
+				20:[bm25_12_all_dump<10.6425] yes=41,no=42,missing=41
+					41:leaf=-0.0537365
+					42:leaf=0.0983475
+			10:[qs_attr_sim<0.150987] yes=21,no=22,missing=21
+				21:[qs_pdw_img_sim<1.48076] yes=43,no=44,missing=43
+					43:leaf=-0.0611038
+					44:leaf=0.0752311
+				22:[match_ratio<0.708333] yes=45,no=46,missing=45
+					45:leaf=0.0223991
+					46:leaf=0.127247
+	2:[qs_prod_co_click_iter1_norm<0.598988] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.267857] yes=11,no=12,missing=11
+			11:[window_size<23] yes=23,no=24,missing=23
+				23:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.087799
+					48:leaf=-0.0808856
+				24:[q_product_is_broad<1] yes=49,no=50,missing=49
+					49:leaf=0.0351986
+					50:leaf=0.0953887
+			12:[q_has_brand<1] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.356284] yes=51,no=52,missing=51
+					51:leaf=-0.0635141
+					52:leaf=0.0187605
+				26:[qs_attr_value_sim<0.698701] yes=53,no=54,missing=53
+					53:leaf=-0.125108
+					54:leaf=0.0209867
+		6:[qs_term_co_click_iter1_norm<0.658196] yes=13,no=14,missing=13
+			13:[window_size<2] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.69519] yes=55,no=56,missing=55
+					55:leaf=0.098402
+					56:leaf=0.134209
+				28:[qs_attr_value_sim<0.332326] yes=57,no=58,missing=57
+					57:leaf=0.0337717
+					58:leaf=0.0876802
+			14:[qs_prod_conflict_match_ratio<0.464286] yes=29,no=30,missing=29
+				29:[window_size<58] yes=59,no=60,missing=59
+					59:leaf=0.13311
+					60:leaf=0.108151
+				30:[window_size<5] yes=61,no=62,missing=61
+					61:leaf=0.113725
+					62:leaf=0.0107038
+booster[5]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_attr_sim<0.341437] yes=7,no=8,missing=7
+			7:[window_size<37] yes=15,no=16,missing=15
+				15:[qs_attr_sim<-0.5] yes=31,no=32,missing=31
+					31:leaf=-0.0101149
+					32:leaf=-0.0820795
+				16:[q_has_attr<1] yes=33,no=34,missing=33
+					33:leaf=-0.138501
+					34:leaf=-0.0781028
+			8:[q_has_attr<1] yes=17,no=18,missing=17
+				17:[q_has_brand<1] yes=35,no=36,missing=35
+					35:leaf=-0.0869778
+					36:leaf=0.0733504
+				18:[qs_prod_co_click_iter1_norm<0.468891] yes=37,no=38,missing=37
+					37:leaf=-0.0114958
+					38:leaf=0.119388
+		4:[qs_prod_co_click_iter1_norm<0.508306] yes=9,no=10,missing=9
+			9:[qs_img_sim<1.52846] yes=19,no=20,missing=19
+				19:[qs_img_sim<1.29047] yes=39,no=40,missing=39
+					39:leaf=0.0529731
+					40:leaf=-0.0740189
+				20:[window_size<63] yes=41,no=42,missing=41
+					41:leaf=0.0459416
+					42:leaf=-0.0876726
+			10:[qs_pdw_img_sim<1.54714] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.153781] yes=43,no=44,missing=43
+					43:leaf=-0.052904
+					44:leaf=0.0696253
+				22:[qs_sim_prod_match_ratio<0.133929] yes=45,no=46,missing=45
+					45:leaf=0.117957
+					46:leaf=0.0583476
+	2:[qs_prod_co_click_iter1_norm<0.65006] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.133929] yes=11,no=12,missing=11
+			11:[window_size<13] yes=23,no=24,missing=23
+				23:[q_has_brand<1] yes=47,no=48,missing=47
+					47:leaf=0.0746025
+					48:leaf=0.116658
+				24:[qs_attr_sim<0.30438] yes=49,no=50,missing=49
+					49:leaf=-0.00260783
+					50:leaf=0.052975
+			12:[qs_prod_conflict_match_ratio<0.708333] yes=25,no=26,missing=25
+				25:[qs_attr_value_sim<0.659478] yes=51,no=52,missing=51
+					51:leaf=-0.0348062
+					52:leaf=0.0708211
+				26:[qs_pdw_img_sim<1.74532] yes=53,no=54,missing=53
+					53:leaf=-0.0993689
+					54:leaf=-0.0132667
+		6:[window_size<71] yes=13,no=14,missing=13
+			13:[qs_prod_co_click_iter1_norm<0.865498] yes=27,no=28,missing=27
+				27:[qs_pdw_img_sim<1.61155] yes=55,no=56,missing=55
+					55:leaf=0.0873891
+					56:leaf=0.115865
+				28:[qs_img_sim<1.68684] yes=57,no=58,missing=57
+					57:leaf=0.119146
+					58:leaf=0.133188
+			14:[qs_attr_value_sim<0.545095] yes=29,no=30,missing=29
+				29:[qs_term_co_click_iter1_norm<0.523257] yes=59,no=60,missing=59
+					59:leaf=0.0118839
+					60:leaf=0.0764306
+				30:[qs_attr_sim<0.999837] yes=61,no=62,missing=61
+					61:leaf=0.111898
+					62:leaf=0.00794556
+booster[6]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.183333] yes=7,no=8,missing=7
+			7:[qs_match_product_relev_cate<1] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<21.0813] yes=31,no=32,missing=31
+					31:leaf=-0.0829185
+					32:leaf=-0.0243283
+				16:[qs_attr_sim<0.171752] yes=33,no=34,missing=33
+					33:leaf=-0.0437169
+					34:leaf=0.0515681
+			8:[window_size<48] yes=17,no=18,missing=17
+				17:[bm25_2_dump<12.6007] yes=35,no=36,missing=35
+					35:leaf=-0.0829423
+					36:leaf=-0.126622
+				18:[qs_sim_prod_match_ratio<0.0651261] yes=37,no=38,missing=37
+					37:leaf=-0.138952
+					38:leaf=-0.0369057
+		4:[qs_prod_co_click_iter1_norm<0.76588] yes=9,no=10,missing=9
+			9:[qs_prod_conflict_match<1] yes=19,no=20,missing=19
+				19:[qs_pdw_img_sim<1.55163] yes=39,no=40,missing=39
+					39:leaf=-0.0305979
+					40:leaf=0.0643674
+				20:[qs_pdw_img_sim<1.57506] yes=41,no=42,missing=41
+					41:leaf=0.0259473
+					42:leaf=-0.11103
+			10:[qs_attr_sim<0.150987] yes=21,no=22,missing=21
+				21:[bm25_2_all_dump<14.5141] yes=43,no=44,missing=43
+					43:leaf=-0.0326211
+					44:leaf=0.0789457
+				22:[is_same_field<1] yes=45,no=46,missing=45
+					45:leaf=-0.00323578
+					46:leaf=0.112606
+	2:[qs_prod_co_click_iter1_norm<0.476447] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.183333] yes=11,no=12,missing=11
+			11:[window_size<46] yes=23,no=24,missing=23
+				23:[qs_prod_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.0963219
+					48:leaf=0.0533183
+				24:[q_product_is_broad<1] yes=49,no=50,missing=49
+					49:leaf=0.0193223
+					50:leaf=0.0759726
+			12:[qs_attr_sim<0.885987] yes=25,no=26,missing=25
+				25:[window_size<9] yes=51,no=52,missing=51
+					51:leaf=-0.0420683
+					52:leaf=-0.0992285
+				26:[qs_pdw_img_sim<1.54111] yes=53,no=54,missing=53
+					53:leaf=-0.0779546
+					54:leaf=0.026803
+		6:[qs_term_co_click_iter1_norm<0.657029] yes=13,no=14,missing=13
+			13:[window_size<25] yes=27,no=28,missing=27
+				27:[qs_pdw_img_sim<1.68153] yes=55,no=56,missing=55
+					55:leaf=0.0766913
+					56:leaf=0.111042
+				28:[qs_prod_conflict_match_ratio<0.154762] yes=57,no=58,missing=57
+					57:leaf=0.0612887
+					58:leaf=-0.0402742
+			14:[qs_prod_conflict_match_ratio<0.464286] yes=29,no=30,missing=29
+				29:[qs_prod_match<1] yes=59,no=60,missing=59
+					59:leaf=0.103111
+					60:leaf=0.120615
+				30:[q_has_brand<1] yes=61,no=62,missing=61
+					61:leaf=0.0716198
+					62:leaf=-0.041271
+booster[7]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.183333] yes=7,no=8,missing=7
+			7:[bm25_12_all_dump<0.34842] yes=15,no=16,missing=15
+				15:[q_has_attr<1] yes=31,no=32,missing=31
+					31:leaf=-0.12838
+					32:leaf=-0.0522356
+				16:[q_has_product<1] yes=33,no=34,missing=33
+					33:leaf=-0.0575231
+					34:leaf=-0.00234219
+			8:[window_size<48] yes=17,no=18,missing=17
+				17:[bm25_2_dump<12.6007] yes=35,no=36,missing=35
+					35:leaf=-0.0769971
+					36:leaf=-0.120376
+				18:[qs_sim_prod_match_ratio<0.0651261] yes=37,no=38,missing=37
+					37:leaf=-0.133137
+					38:leaf=-0.0351462
+		4:[qs_prod_co_click_iter1_norm<0.76588] yes=9,no=10,missing=9
+			9:[qs_attr_value_sim<0.266926] yes=19,no=20,missing=19
+				19:[window_size<8] yes=39,no=40,missing=39
+					39:leaf=0.0290109
+					40:leaf=-0.0680746
+				20:[bm25_2_dump<9.12323] yes=41,no=42,missing=41
+					41:leaf=-0.0326263
+					42:leaf=0.0903231
+			10:[qs_attr_sim<0.150987] yes=21,no=22,missing=21
+				21:[qs_term_co_click_iter1_norm<0.711398] yes=43,no=44,missing=43
+					43:leaf=-0.0275533
+					44:leaf=0.0759888
+				22:[match_ratio<0.708333] yes=45,no=46,missing=45
+					45:leaf=0.00987991
+					46:leaf=0.107173
+	2:[qs_prod_co_click_iter1_norm<0.65006] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.133929] yes=11,no=12,missing=11
+			11:[qs_pdw_img_sim<1.67752] yes=23,no=24,missing=23
+				23:[window_size<17] yes=47,no=48,missing=47
+					47:leaf=0.059744
+					48:leaf=0.0220467
+				24:[qs_attr_sim<0.189948] yes=49,no=50,missing=49
+					49:leaf=-0.0160039
+					50:leaf=0.0874059
+			12:[qs_prod_conflict_match_ratio<0.708333] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.504495] yes=51,no=52,missing=51
+					51:leaf=-0.0709084
+					52:leaf=0.000905779
+				26:[qs_attr_value_sim<0.297814] yes=53,no=54,missing=53
+					53:leaf=-0.104395
+					54:leaf=-0.0525298
+		6:[window_size<71] yes=13,no=14,missing=13
+			13:[qs_prod_co_click_iter1_norm<0.865498] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.73545] yes=55,no=56,missing=55
+					55:leaf=0.0827793
+					56:leaf=0.11298
+				28:[qs_img_sim<1.68684] yes=57,no=58,missing=57
+					57:leaf=0.106788
+					58:leaf=0.121765
+			14:[qs_attr_value_sim<0.545095] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.66697] yes=59,no=60,missing=59
+					59:leaf=0.0257623
+					60:leaf=0.0722825
+				30:[qs_attr_sim<0.999837] yes=61,no=62,missing=61
+					61:leaf=0.0987148
+					62:leaf=-0.00235941
+booster[8]:
+0:[qs_match_high_relev_cate<1] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_attr_sim<0.150778] yes=7,no=8,missing=7
+			7:[qs_pdw_img_sim<1.16114] yes=15,no=16,missing=15
+				15:[qs_product_match_synonyms<1] yes=31,no=32,missing=31
+					31:leaf=-0.0120438
+					32:leaf=-0.112797
+				16:[qs_sim_prod_match_ratio<0.0357143] yes=33,no=34,missing=33
+					33:leaf=-0.101941
+					34:leaf=0.00742485
+			8:[q_has_attr<1] yes=17,no=18,missing=17
+				17:[q_has_brand<1] yes=35,no=36,missing=35
+					35:leaf=-0.0720007
+					36:leaf=0.0361394
+				18:[qs_prod_co_click_iter1_norm<0.447979] yes=37,no=38,missing=37
+					37:leaf=-0.0241051
+					38:leaf=0.0949618
+		4:[qs_prod_co_click_iter1_norm<0.51822] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.74627] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.503763] yes=39,no=40,missing=39
+					39:leaf=-0.0198091
+					40:leaf=0.113217
+				20:[qs_attr_sim<0.626502] yes=41,no=42,missing=41
+					41:leaf=0.10954
+					42:leaf=0.0191711
+			10:[qs_pdw_img_sim<1.46568] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.153898] yes=43,no=44,missing=43
+					43:leaf=-0.08019
+					44:leaf=0.0543876
+				22:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=45,no=46,missing=45
+					45:leaf=0.0876245
+					46:leaf=-0.038902
+	2:[qs_prod_co_click_iter1_norm<0.65006] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.133929] yes=11,no=12,missing=11
+			11:[window_size<11] yes=23,no=24,missing=23
+				23:[q_has_brand<1] yes=47,no=48,missing=47
+					47:leaf=0.0569254
+					48:leaf=0.101595
+				24:[q_product_is_broad<1] yes=49,no=50,missing=49
+					49:leaf=0.0239493
+					50:leaf=0.0780126
+			12:[qs_prod_co_click_iter1_norm<0.285832] yes=25,no=26,missing=25
+				25:[qs_prod_match<1] yes=51,no=52,missing=51
+					51:leaf=-0.071991
+					52:leaf=0.0639069
+				26:[qs_pdw_img_sim<1.6411] yes=53,no=54,missing=53
+					53:leaf=-0.0383534
+					54:leaf=0.0339579
+		6:[window_size<66] yes=13,no=14,missing=13
+			13:[qs_prod_co_click_iter1_norm<0.865498] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.66252] yes=55,no=56,missing=55
+					55:leaf=0.0712224
+					56:leaf=0.100264
+				28:[qs_prod_match<1] yes=57,no=58,missing=57
+					57:leaf=0.094388
+					58:leaf=0.113944
+			14:[qs_attr_value_sim<0.545401] yes=29,no=30,missing=29
+				29:[qs_term_co_click_iter1_norm<0.523257] yes=59,no=60,missing=59
+					59:leaf=0.00112482
+					60:leaf=0.0583992
+				30:[qs_attr_sim<0.999837] yes=61,no=62,missing=61
+					61:leaf=0.0929823
+					62:leaf=-0.000233626
+booster[9]:
+0:[qs_prod_co_click_iter1_norm<0.406832] yes=1,no=2,missing=1
+	1:[qs_match_high_relev_cate<1] yes=3,no=4,missing=3
+		3:[window_size<1] yes=7,no=8,missing=7
+			7:[bm25_2_dump<27.2109] yes=15,no=16,missing=15
+				15:[qs_product_match_synonyms<1] yes=31,no=32,missing=31
+					31:leaf=-0.0404686
+					32:leaf=0.09384
+				16:[bm25_12_all_dump<31.3046] yes=33,no=34,missing=33
+					33:leaf=0.0420435
+					34:leaf=0.166419
+			8:[qs_attr_sim<0.482821] yes=17,no=18,missing=17
+				17:[qs_img_sim<1.79073] yes=35,no=36,missing=35
+					35:leaf=-0.0869406
+					36:leaf=0.0574615
+				18:[qs_img_sim<1.39378] yes=37,no=38,missing=37
+					37:leaf=0.0628632
+					38:leaf=-0.0350911
+		4:[qs_prod_conflict_match_ratio<0.225] yes=9,no=10,missing=9
+			9:[qs_prod_co_click_iter1_norm<-0.5] yes=19,no=20,missing=19
+				19:[window_size<24] yes=39,no=40,missing=39
+					39:leaf=0.0825383
+					40:leaf=0.032645
+				20:[qs_attr_sim<0.190054] yes=41,no=42,missing=41
+					41:leaf=-0.0616061
+					42:leaf=0.0298065
+			10:[qs_attr_value_sim<0.293899] yes=21,no=22,missing=21
+				21:[q_has_brand<1] yes=43,no=44,missing=43
+					43:leaf=-0.0609803
+					44:leaf=-0.121648
+				22:[window_size<18] yes=45,no=46,missing=45
+					45:leaf=0.0161264
+					46:leaf=-0.0579234
+	2:[qs_match_high_relev_cate<1] yes=5,no=6,missing=5
+		5:[qs_prod_match<1] yes=11,no=12,missing=11
+			11:[q_has_attr<1] yes=23,no=24,missing=23
+				23:[qs_match_product_relev_cate<1] yes=47,no=48,missing=47
+					47:leaf=-0.0765111
+					48:leaf=0.0413429
+				24:[qs_attr_sim<0.445198] yes=49,no=50,missing=49
+					49:leaf=-0.01921
+					50:leaf=0.112277
+			12:[qs_pdw_img_sim<1.5265] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.256946] yes=51,no=52,missing=51
+					51:leaf=-0.061193
+					52:leaf=0.0525584
+				26:[qs_prod_conflict_match<1] yes=53,no=54,missing=53
+					53:leaf=0.0818275
+					54:leaf=-0.0206287
+		6:[qs_prod_co_click_iter1_norm<0.820258] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.6503] yes=27,no=28,missing=27
+				27:[qs_pdw_img_sim<1.09416] yes=55,no=56,missing=55
+					55:leaf=0.0842342
+					56:leaf=0.0363182
+				28:[qs_prod_conflict_match_ratio<0.309524] yes=57,no=58,missing=57
+					57:leaf=0.0865088
+					58:leaf=0.021264
+			14:[window_size<66] yes=29,no=30,missing=29
+				29:[qs_attr_value_sim<0.0605598] yes=59,no=60,missing=59
+					59:leaf=0.0387365
+					60:leaf=0.105019
+				30:[qs_attr_value_sim<0.37134] yes=61,no=62,missing=61
+					61:leaf=0.0293217
+					62:leaf=0.0779108
+booster[10]:
+0:[qs_prod_co_click_iter1_norm<0.385558] yes=1,no=2,missing=1
+	1:[qs_match_high_relev_cate<1] yes=3,no=4,missing=3
+		3:[window_size<1] yes=7,no=8,missing=7
+			7:[bm25_2_dump<27.2109] yes=15,no=16,missing=15
+				15:[qs_product_match_synonyms<1] yes=31,no=32,missing=31
+					31:leaf=-0.0354423
+					32:leaf=0.0819841
+				16:[bm25_12_all_dump<31.3046] yes=33,no=34,missing=33
+					33:leaf=0.0387688
+					34:leaf=0.149022
+			8:[qs_attr_sim<0.370925] yes=17,no=18,missing=17
+				17:[qs_img_sim<1.79073] yes=35,no=36,missing=35
+					35:leaf=-0.0842264
+					36:leaf=0.0430967
+				18:[qs_prod_conflict_match_ratio<0.55] yes=37,no=38,missing=37
+					37:leaf=-0.01277
+					38:leaf=-0.115257
+		4:[qs_prod_conflict_match_ratio<0.225] yes=9,no=10,missing=9
+			9:[qs_prod_co_click_iter1_norm<-0.5] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.411196] yes=39,no=40,missing=39
+					39:leaf=0.0382475
+					40:leaf=0.0857045
+				20:[qs_brand_match_shopname<1] yes=41,no=42,missing=41
+					41:leaf=0.00542567
+					42:leaf=0.0840952
+			10:[window_size<18] yes=21,no=22,missing=21
+				21:[qs_attr_value_sim<0.267058] yes=43,no=44,missing=43
+					43:leaf=-0.0607245
+					44:leaf=0.0122382
+				22:[qs_attr_sim<0.88664] yes=45,no=46,missing=45
+					45:leaf=-0.09282
+					46:leaf=-0.0279591
+	2:[qs_match_high_relev_cate<1] yes=5,no=6,missing=5
+		5:[qs_prod_match<1] yes=11,no=12,missing=11
+			11:[q_has_attr<1] yes=23,no=24,missing=23
+				23:[qs_match_product_relev_cate<1] yes=47,no=48,missing=47
+					47:leaf=-0.0717671
+					48:leaf=0.037964
+				24:[qs_attr_sim<0.411172] yes=49,no=50,missing=49
+					49:leaf=-0.0250059
+					50:leaf=0.0929309
+			12:[qs_pdw_img_sim<1.5265] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.256946] yes=51,no=52,missing=51
+					51:leaf=-0.0521602
+					52:leaf=0.0428544
+				26:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=53,no=54,missing=53
+					53:leaf=0.0743836
+					54:leaf=-0.0861867
+		6:[qs_prod_co_click_iter1_norm<0.820258] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.6503] yes=27,no=28,missing=27
+				27:[qs_prod_conflict_match_ratio<0.154762] yes=55,no=56,missing=55
+					55:leaf=0.0483176
+					56:leaf=-0.0189558
+				28:[qs_prod_conflict_match_ratio<0.309524] yes=57,no=58,missing=57
+					57:leaf=0.0814792
+					58:leaf=0.0222318
+			14:[window_size<66] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.68684] yes=59,no=60,missing=59
+					59:leaf=0.0886937
+					60:leaf=0.107797
+				30:[qs_attr_match_synonyms<1] yes=61,no=62,missing=61
+					61:leaf=0.0454107
+					62:leaf=0.0860813
+booster[11]:
+0:[qs_prod_co_click_iter1_norm<0.438705] yes=1,no=2,missing=1
+	1:[qs_match_high_relev_cate<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.366667] yes=7,no=8,missing=7
+			7:[bm25_12_all_dump<0.34842] yes=15,no=16,missing=15
+				15:[qs_prod_co_click_iter1_norm<0.0916052] yes=31,no=32,missing=31
+					31:leaf=-0.0956778
+					32:leaf=0.0475526
+				16:[qs_pdw_img_sim<0.0358826] yes=33,no=34,missing=33
+					33:leaf=0.0129269
+					34:leaf=-0.041474
+			8:[qs_prod_co_click_iter1_norm<0.221804] yes=17,no=18,missing=17
+				17:[qs_attr_sim<0.288361] yes=35,no=36,missing=35
+					35:leaf=-0.120686
+					36:leaf=-0.082405
+				18:[qs_term_co_click_iter1_norm<0.15651] yes=37,no=38,missing=37
+					37:leaf=0.0824824
+					38:leaf=-0.077153
+		4:[qs_prod_conflict_match_ratio<0.267857] yes=9,no=10,missing=9
+			9:[qs_prod_match<1] yes=19,no=20,missing=19
+				19:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=39,no=40,missing=39
+					39:leaf=0.0277225
+					40:leaf=-0.109801
+				20:[bm25_12_dump<3.79801] yes=41,no=42,missing=41
+					41:leaf=-0.100801
+					42:leaf=0.0822216
+			10:[window_size<5] yes=21,no=22,missing=21
+				21:[qs_attr_value_sim<0.290894] yes=43,no=44,missing=43
+					43:leaf=-0.0504068
+					44:leaf=0.0350297
+				22:[qs_pdw_img_sim<1.70274] yes=45,no=46,missing=45
+					45:leaf=-0.077493
+					46:leaf=-0.00662269
+	2:[qs_match_high_relev_cate<1] yes=5,no=6,missing=5
+		5:[qs_prod_match<1] yes=11,no=12,missing=11
+			11:[qs_attr_match_synonyms<1] yes=23,no=24,missing=23
+				23:[bm25_2_all_dump<23.5738] yes=47,no=48,missing=47
+					47:leaf=-0.0674553
+					48:leaf=0.0210639
+				24:[q_has_product<1] yes=49,no=50,missing=49
+					49:leaf=0.149205
+					50:leaf=0.0277509
+			12:[qs_pdw_img_sim<1.52222] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.153781] yes=51,no=52,missing=51
+					51:leaf=-0.0568046
+					52:leaf=0.0373381
+				26:[qs_sim_prod_match_ratio<0.133929] yes=53,no=54,missing=53
+					53:leaf=0.0824498
+					54:leaf=0.0230089
+		6:[qs_term_co_click_iter1_norm<0.657029] yes=13,no=14,missing=13
+			13:[qs_pdw_img_sim<1.68882] yes=27,no=28,missing=27
+				27:[qs_attr_value_sim<0.368491] yes=55,no=56,missing=55
+					55:leaf=0.0117619
+					56:leaf=0.052274
+				28:[window_size<2] yes=57,no=58,missing=57
+					57:leaf=0.0894108
+					58:leaf=0.0533258
+			14:[qs_prod_conflict_match_ratio<0.464286] yes=29,no=30,missing=29
+				29:[qs_prod_match<1] yes=59,no=60,missing=59
+					59:leaf=0.0770771
+					60:leaf=0.0971747
+				30:[qs_product_match_cidname<1] yes=61,no=62,missing=61
+					61:leaf=0.0496113
+					62:leaf=-0.0650889
+booster[12]:
+0:[qs_prod_co_click_iter1_norm<0.476447] yes=1,no=2,missing=1
+	1:[qs_match_high_relev_cate<1] yes=3,no=4,missing=3
+		3:[qs_attr_sim<0.341437] yes=7,no=8,missing=7
+			7:[window_size<1] yes=15,no=16,missing=15
+				15:[qs_prod_co_click_iter1_norm<-0.5] yes=31,no=32,missing=31
+					31:leaf=0.0042731
+					32:leaf=-0.0543583
+				16:[qs_sim_prod_match<1] yes=33,no=34,missing=33
+					33:leaf=-0.0743752
+					34:leaf=0.0731336
+			8:[qs_match_high_clk_relev_cate<1] yes=17,no=18,missing=17
+				17:[qs_prod_conflict_match_ratio<0.55] yes=35,no=36,missing=35
+					35:leaf=0.0169564
+					36:leaf=-0.0923978
+				18:[bm25_12_dump<18.7052] yes=37,no=38,missing=37
+					37:leaf=-0.0917248
+					38:leaf=0.070032
+		4:[qs_prod_conflict_match_ratio<0.183333] yes=9,no=10,missing=9
+			9:[qs_prod_match<1] yes=19,no=20,missing=19
+				19:[qs_brand_match_shopname<1] yes=39,no=40,missing=39
+					39:leaf=0.0186541
+					40:leaf=0.071441
+				20:[bm25_12_dump<3.87575] yes=41,no=42,missing=41
+					41:leaf=-0.0789669
+					42:leaf=0.0753312
+			10:[bm25_12_all_dump<21.6509] yes=21,no=22,missing=21
+				21:[qs_attr_value_sim<0.312236] yes=43,no=44,missing=43
+					43:leaf=-0.0472182
+					44:leaf=0.0134442
+				22:[qs_attr_value_sim<0.65985] yes=45,no=46,missing=45
+					45:leaf=-0.0889783
+					46:leaf=0.0214197
+	2:[qs_match_high_relev_cate<1] yes=5,no=6,missing=5
+		5:[qs_prod_match<1] yes=11,no=12,missing=11
+			11:[q_has_brand<1] yes=23,no=24,missing=23
+				23:[qs_match_product_relev_cate<1] yes=47,no=48,missing=47
+					47:leaf=-0.0648204
+					48:leaf=0.0516766
+				24:[q_has_product<1] yes=49,no=50,missing=49
+					49:leaf=0.142503
+					50:leaf=-0.00931261
+			12:[qs_pdw_img_sim<1.55812] yes=25,no=26,missing=25
+				25:[window_size<36] yes=51,no=52,missing=51
+					51:leaf=0.0286185
+					52:leaf=-0.0837053
+				26:[qs_sim_prod_match_ratio<0.133929] yes=53,no=54,missing=53
+					53:leaf=0.0849704
+					54:leaf=0.0182997
+		6:[qs_term_co_click_iter1_norm<0.657029] yes=13,no=14,missing=13
+			13:[window_size<3] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.69519] yes=55,no=56,missing=55
+					55:leaf=0.0518008
+					56:leaf=0.0880871
+				28:[qs_attr_value_sim<0.569211] yes=57,no=58,missing=57
+					57:leaf=0.0133191
+					58:leaf=0.0572011
+			14:[qs_prod_match<1] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.71947] yes=59,no=60,missing=59
+					59:leaf=0.0520641
+					60:leaf=0.0882227
+				30:[window_size<71] yes=61,no=62,missing=61
+					61:leaf=0.0960849
+					62:leaf=0.0580772
+booster[13]:
+0:[qs_prod_co_click_iter1_norm<0.385558] yes=1,no=2,missing=1
+	1:[qs_match_high_relev_cate<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.366667] yes=7,no=8,missing=7
+			7:[bm25_2_all_dump<3.31732] yes=15,no=16,missing=15
+				15:[qs_prod_co_click_iter1_norm<0.16125] yes=31,no=32,missing=31
+					31:leaf=-0.0884243
+					32:leaf=0.106423
+				16:[qs_pdw_img_sim<0.0358826] yes=33,no=34,missing=33
+					33:leaf=0.0174394
+					34:leaf=-0.0359573
+			8:[qs_prod_match<1] yes=17,no=18,missing=17
+				17:[bm25_2_all_dump<16.1505] yes=35,no=36,missing=35
+					35:leaf=-0.0734151
+					36:leaf=-0.113526
+				18:[qs_pdw_img_sim<1.59983] yes=37,no=38,missing=37
+					37:leaf=0.0829664
+					38:leaf=-0.0335254
+		4:[qs_prod_co_click_iter1_norm<-0.5] yes=9,no=10,missing=9
+			9:[window_size<24] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.354103] yes=39,no=40,missing=39
+					39:leaf=0.0474059
+					40:leaf=0.0881112
+				20:[qs_attr_match_attr<1] yes=41,no=42,missing=41
+					41:leaf=0.0291918
+					42:leaf=-0.036669
+			10:[qs_prod_co_click_iter1_norm<0.207758] yes=21,no=22,missing=21
+				21:[q_has_product<1] yes=43,no=44,missing=43
+					43:leaf=0.0107774
+					44:leaf=-0.0419433
+				22:[qs_attr_sim<0.128897] yes=45,no=46,missing=45
+					45:leaf=-0.0994052
+					46:leaf=0.0290904
+	2:[qs_term_co_click_iter1_norm<0.657029] yes=5,no=6,missing=5
+		5:[qs_pdw_img_sim<1.68848] yes=11,no=12,missing=11
+			11:[qs_prod_conflict_match_ratio<0.154762] yes=23,no=24,missing=23
+				23:[qs_attr_value_sim<0.472548] yes=47,no=48,missing=47
+					47:leaf=0.0163001
+					48:leaf=0.0504607
+				24:[qs_pdw_img_sim<1.64124] yes=49,no=50,missing=49
+					49:leaf=-0.0511055
+					50:leaf=0.0408948
+			12:[qs_match_high_relev_cate<1] yes=25,no=26,missing=25
+				25:[qs_match_high_clk_relev_cate<1] yes=51,no=52,missing=51
+					51:leaf=0.0492957
+					52:leaf=-0.0942882
+				26:[window_size<2] yes=53,no=54,missing=53
+					53:leaf=0.0805812
+					54:leaf=0.0488434
+		6:[qs_match_high_relev_cate<1] yes=13,no=14,missing=13
+			13:[qs_prod_match<1] yes=27,no=28,missing=27
+				27:[qs_attr_match_synonyms<1] yes=55,no=56,missing=55
+					55:leaf=-0.0459312
+					56:leaf=0.103606
+				28:[match_count<4] yes=57,no=58,missing=57
+					57:leaf=0.0736059
+					58:leaf=-0.0410832
+			14:[qs_prod_conflict_match_ratio<0.464286] yes=29,no=30,missing=29
+				29:[qs_prod_co_click_iter1_norm<0.816339] yes=59,no=60,missing=59
+					59:leaf=0.0620182
+					60:leaf=0.0875648
+				30:[q_has_brand<1] yes=61,no=62,missing=61
+					61:leaf=0.0344147
+					62:leaf=-0.0772778
+booster[14]:
+0:[qs_prod_co_click_iter1_norm<0.706794] yes=1,no=2,missing=1
+	1:[qs_attr_sim<0.374922] yes=3,no=4,missing=3
+		3:[qs_match_high_clk_relev_cate<1] yes=7,no=8,missing=7
+			7:[qs_sim_prod_match_ratio<0.0540936] yes=15,no=16,missing=15
+				15:[window_size<1] yes=31,no=32,missing=31
+					31:leaf=-0.0253075
+					32:leaf=-0.0659522
+				16:[match_ratio<0.583333] yes=33,no=34,missing=33
+					33:leaf=-0.0740504
+					34:leaf=0.073142
+			8:[qs_product_match_synonyms<1] yes=17,no=18,missing=17
+				17:[is_same_field<1] yes=35,no=36,missing=35
+					35:leaf=-0.0320009
+					36:leaf=0.0358355
+				18:[qs_pdw_img_sim<1.78123] yes=37,no=38,missing=37
+					37:leaf=-0.0977097
+					38:leaf=0.0661533
+		4:[qs_prod_conflict_match_ratio<0.464286] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.67752] yes=19,no=20,missing=19
+				19:[qs_img_sim<1.03937] yes=39,no=40,missing=39
+					39:leaf=0.0544685
+					40:leaf=0.0118232
+				20:[qs_img_sim<1.73855] yes=41,no=42,missing=41
+					41:leaf=0.0432558
+					42:leaf=0.0723437
+			10:[window_size<5] yes=21,no=22,missing=21
+				21:[qs_match_high_clk_relev_cate<1] yes=43,no=44,missing=43
+					43:leaf=0.0524664
+					44:leaf=-0.0245429
+				22:[qs_sim_prod_match_ratio<0.225] yes=45,no=46,missing=45
+					45:leaf=-0.0597425
+					46:leaf=0.104968
+	2:[qs_match_high_relev_cate<1] yes=5,no=6,missing=5
+		5:[qs_prod_match<1] yes=11,no=12,missing=11
+			11:[q_has_attr<1] yes=23,no=24,missing=23
+				23:[bm25_12_all_dump<23.9942] yes=47,no=48,missing=47
+					47:leaf=-0.0813233
+					48:leaf=0.01671
+				24:[qs_attr_sim<0.460184] yes=49,no=50,missing=49
+					49:leaf=-0.010207
+					50:leaf=0.106575
+			12:[qs_attr_sim<0.0050023] yes=25,no=26,missing=25
+				25:[bm25_12_all_dump<10.2078] yes=51,no=52,missing=51
+					51:leaf=-0.127812
+					52:leaf=0.0350257
+				26:[window_size<10] yes=53,no=54,missing=53
+					53:leaf=0.0788655
+					54:leaf=0.023462
+		6:[window_size<50] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.67874] yes=27,no=28,missing=27
+				27:[qs_attr_value_sim<0.235576] yes=55,no=56,missing=55
+					55:leaf=0.0174494
+					56:leaf=0.0721897
+				28:[qs_prod_match_ratio<0.75] yes=57,no=58,missing=57
+					57:leaf=0.077506
+					58:leaf=0.0976384
+			14:[qs_attr_value_sim<0.549486] yes=29,no=30,missing=29
+				29:[qs_prod_conflict_match_ratio<0.183333] yes=59,no=60,missing=59
+					59:leaf=0.0277079
+					60:leaf=-0.0683056
+				30:[qs_attr_sim<0.999837] yes=61,no=62,missing=61
+					61:leaf=0.0696374
+					62:leaf=-0.0300741
+booster[15]:
+0:[qs_prod_co_click_iter1_norm<0.724155] yes=1,no=2,missing=1
+	1:[qs_attr_value_sim<0.324501] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.45] yes=7,no=8,missing=7
+			7:[qs_match_high_relev_cate<1] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<3.31732] yes=31,no=32,missing=31
+					31:leaf=-0.0784417
+					32:leaf=-0.0187626
+				16:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=33,no=34,missing=33
+					33:leaf=0.014617
+					34:leaf=-0.125556
+			8:[qs_prod_co_click_iter1_norm<0.228579] yes=17,no=18,missing=17
+				17:[qs_attr_value_sim<0.29969] yes=35,no=36,missing=35
+					35:leaf=-0.0891957
+					36:leaf=0.0233089
+				18:[qs_img_sim<1.76307] yes=37,no=38,missing=37
+					37:leaf=-0.0454919
+					38:leaf=0.0571071
+		4:[window_size<14] yes=9,no=10,missing=9
+			9:[q_has_brand<1] yes=19,no=20,missing=19
+				19:[q_has_product<1] yes=39,no=40,missing=39
+					39:leaf=0.000951043
+					40:leaf=0.0507617
+				20:[qs_xinghaoci_co_click_iter1_norm<0.911987] yes=41,no=42,missing=41
+					41:leaf=0.0882867
+					42:leaf=-0.10933
+			10:[q_product_is_broad<1] yes=21,no=22,missing=21
+				21:[qs_pdw_img_sim<1.75086] yes=43,no=44,missing=43
+					43:leaf=-0.0117797
+					44:leaf=0.0462753
+				22:[qs_attr_sim<0.424719] yes=45,no=46,missing=45
+					45:leaf=-0.0925602
+					46:leaf=0.0746168
+	2:[qs_attr_value_sim<0.0410171] yes=5,no=6,missing=5
+		5:[qs_prod_match_ratio<0.75] yes=11,no=12,missing=11
+			11:[qs_pdw_img_sim<0.134275] yes=23,no=24,missing=23
+				23:[qs_prod_co_click_iter1_norm<0.891613] yes=47,no=48,missing=47
+					47:leaf=0.018704
+					48:leaf=0.178754
+				24:[qs_sim_prod_match_ratio<0.115556] yes=49,no=50,missing=49
+					49:leaf=-0.0946266
+					50:leaf=0.0485368
+			12:[qs_sim_prod_match_ratio<0.174242] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.987641] yes=51,no=52,missing=51
+					51:leaf=0.0154234
+					52:leaf=0.0895966
+				26:[bm25_2_all_dump<26.8594] yes=53,no=54,missing=53
+					53:leaf=-0.107442
+					54:leaf=0.0680427
+		6:[q_has_product<1] yes=13,no=14,missing=13
+			13:[q_has_brand<1] yes=27,no=28,missing=27
+				27:[q_has_attr<1] yes=55,no=56,missing=55
+					55:leaf=-0.0986768
+					56:leaf=0.0500598
+				28:[window_size<2] yes=57,no=58,missing=57
+					57:leaf=0.106474
+					58:leaf=0.0362809
+			14:[window_size<71] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.7094] yes=59,no=60,missing=59
+					59:leaf=0.0709819
+					60:leaf=0.0956045
+				30:[qs_attr_value_sim<0.404464] yes=61,no=62,missing=61
+					61:leaf=0.00621177
+					62:leaf=0.056376
+booster[16]:
+0:[qs_prod_co_click_iter1_norm<0.724155] yes=1,no=2,missing=1
+	1:[qs_attr_value_sim<0.398557] yes=3,no=4,missing=3
+		3:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=7,no=8,missing=7
+			7:[qs_prod_conflict_match_ratio<0.464286] yes=15,no=16,missing=15
+				15:[qs_term_co_click_iter1_norm<0.330965] yes=31,no=32,missing=31
+					31:leaf=-0.0129155
+					32:leaf=0.0245212
+				16:[qs_prod_co_click_iter1_norm<0.228579] yes=33,no=34,missing=33
+					33:leaf=-0.071537
+					34:leaf=-0.025146
+			8:[qs_xinghaoci_co_click_iter1_norm<0.998848] yes=17,no=18,missing=17
+				17:[bm25_2_all_dump<16.6644] yes=35,no=36,missing=35
+					35:leaf=-0.0674361
+					36:leaf=-0.135797
+				18:[qs_prod_conflict_match<1] yes=37,no=38,missing=37
+					37:leaf=0.0823913
+					38:leaf=-0.102345
+		4:[window_size<14] yes=9,no=10,missing=9
+			9:[q_has_brand<1] yes=19,no=20,missing=19
+				19:[match_count<2] yes=39,no=40,missing=39
+					39:leaf=0.0202716
+					40:leaf=0.0602117
+				20:[window_size<1] yes=41,no=42,missing=41
+					41:leaf=0.100078
+					42:leaf=0.03218
+			10:[q_product_is_broad<1] yes=21,no=22,missing=21
+				21:[qs_prod_conflict_match_ratio<0.291667] yes=43,no=44,missing=43
+					43:leaf=0.0120355
+					44:leaf=-0.0500104
+				22:[qs_prod_conflict_match<2] yes=45,no=46,missing=45
+					45:leaf=0.0740921
+					46:leaf=-0.0210768
+	2:[qs_prod_match<1] yes=5,no=6,missing=5
+		5:[qs_prod_conflict_match_ratio<0.291667] yes=11,no=12,missing=11
+			11:[qs_match_high_relev_cate<1] yes=23,no=24,missing=23
+				23:[q_has_brand<1] yes=47,no=48,missing=47
+					47:leaf=-0.0416537
+					48:leaf=0.103183
+				24:[qs_img_sim<1.73318] yes=49,no=50,missing=49
+					49:leaf=0.0377598
+					50:leaf=0.0766885
+			12:[qs_prod_co_click_iter1_norm<0.894433] yes=25,no=26,missing=25
+				25:[qs_attr_value_sim<0.494595] yes=51,no=52,missing=51
+					51:leaf=-0.0775843
+					52:leaf=0.037699
+				26:[qs_sim_prod_match_ratio<0.10989] yes=53,no=54,missing=53
+					53:leaf=-0.157509
+					54:leaf=0.0717556
+		6:[window_size<71] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.67692] yes=27,no=28,missing=27
+				27:[qs_prod_co_click_iter1_norm<0.98285] yes=55,no=56,missing=55
+					55:leaf=0.0584358
+					56:leaf=0.0894145
+				28:[qs_prod_co_click_iter1_norm<0.805881] yes=57,no=58,missing=57
+					57:leaf=0.0590811
+					58:leaf=0.0932474
+			14:[qs_attr_value_sim<0.403801] yes=29,no=30,missing=29
+				29:[bm25_12_dump<6.67026] yes=59,no=60,missing=59
+					59:leaf=-0.0748238
+					60:leaf=0.0162733
+				30:[qs_attr_match_synonyms<1] yes=61,no=62,missing=61
+					61:leaf=0.0211462
+					62:leaf=0.0788969
+booster[17]:
+0:[qs_prod_co_click_iter1_norm<0.724155] yes=1,no=2,missing=1
+	1:[qs_match_high_relev_cate<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.0714286] yes=7,no=8,missing=7
+			7:[qs_attr_sim<0.143174] yes=15,no=16,missing=15
+				15:[bm25_12_dump<16.2846] yes=31,no=32,missing=31
+					31:leaf=-0.0515783
+					32:leaf=0.00960619
+				16:[qs_match_high_clk_relev_cate<1] yes=33,no=34,missing=33
+					33:leaf=0.0135669
+					34:leaf=-0.0648257
+			8:[window_size<62] yes=17,no=18,missing=17
+				17:[bm25_2_dump<12.6065] yes=35,no=36,missing=35
+					35:leaf=-0.0245515
+					36:leaf=-0.0882067
+				18:[qs_pdw_img_sim<1.79818] yes=37,no=38,missing=37
+					37:leaf=-0.110409
+					38:leaf=-0.0119304
+		4:[qs_prod_conflict_match_ratio<0.154762] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.67752] yes=19,no=20,missing=19
+				19:[qs_img_sim<1.19564] yes=39,no=40,missing=39
+					39:leaf=0.041055
+					40:leaf=0.00468212
+				20:[qs_attr_sim<0.189948] yes=41,no=42,missing=41
+					41:leaf=-0.0266885
+					42:leaf=0.0523768
+			10:[qs_prod_conflict_match_ratio<0.708333] yes=21,no=22,missing=21
+				21:[qs_pdw_img_sim<1.50774] yes=43,no=44,missing=43
+					43:leaf=-0.0530135
+					44:leaf=0.00880079
+				22:[qs_pdw_img_sim<1.74902] yes=45,no=46,missing=45
+					45:leaf=-0.0618775
+					46:leaf=0.0144701
+	2:[qs_attr_value_sim<0.0789096] yes=5,no=6,missing=5
+		5:[window_size<6] yes=11,no=12,missing=11
+			11:[bm25_12_dump<7.58921] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<1.4361] yes=47,no=48,missing=47
+					47:leaf=-0.0458918
+					48:leaf=0.0969563
+				24:[bm25_2_dump<8.20403] yes=49,no=50,missing=49
+					49:leaf=-0.177575
+					50:leaf=0.0172565
+			12:[qs_pdw_img_sim<0.109486] yes=25,no=26,missing=25
+				25:[qs_term_co_click_iter1_norm<0.544464] yes=51,no=52,missing=51
+					51:leaf=0.16907
+					52:leaf=0.0117725
+				26:[qs_img_sim<1.74537] yes=53,no=54,missing=53
+					53:leaf=-0.0895064
+					54:leaf=0.0309931
+		6:[window_size<66] yes=13,no=14,missing=13
+			13:[q_has_product<1] yes=27,no=28,missing=27
+				27:[q_has_brand<1] yes=55,no=56,missing=55
+					55:leaf=-0.0115294
+					56:leaf=0.0805378
+				28:[qs_prod_co_click_iter1_norm<0.923532] yes=57,no=58,missing=57
+					57:leaf=0.0607115
+					58:leaf=0.0866625
+			14:[qs_attr_match_synonyms<1] yes=29,no=30,missing=29
+				29:[q_has_attr<1] yes=59,no=60,missing=59
+					59:leaf=0.0417195
+					60:leaf=-0.00380701
+				30:[match_count<4] yes=61,no=62,missing=61
+					61:leaf=0.0621261
+					62:leaf=-0.0523404
+booster[18]:
+0:[qs_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_attr_value_sim<0.369206] yes=3,no=4,missing=3
+		3:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=7,no=8,missing=7
+			7:[qs_prod_conflict_match_ratio<0.133929] yes=15,no=16,missing=15
+				15:[qs_brand_match_shopname<1] yes=31,no=32,missing=31
+					31:leaf=-0.00659193
+					32:leaf=0.0566576
+				16:[qs_img_sim<1.57975] yes=33,no=34,missing=33
+					33:leaf=-0.0769694
+					34:leaf=-0.0339424
+			8:[qs_xinghaoci_co_click_iter1_norm<0.999969] yes=17,no=18,missing=17
+				17:[qs_prod_co_click_iter1_norm<0.997798] yes=35,no=36,missing=35
+					35:leaf=-0.11812
+					36:leaf=0.128351
+				18:leaf=0.132314
+		4:[qs_img_sim<1.71988] yes=9,no=10,missing=9
+			9:[qs_img_sim<0.0547372] yes=19,no=20,missing=19
+				19:[bm25_12_all_dump<12.2136] yes=37,no=38,missing=37
+					37:leaf=0.0256636
+					38:leaf=0.0717333
+				20:[qs_pdw_img_sim<1.49747] yes=39,no=40,missing=39
+					39:leaf=-0.0541211
+					40:leaf=0.0157419
+			10:[qs_sim_prod_match<1] yes=21,no=22,missing=21
+				21:[qs_sim_prod_match_ratio<0.0533428] yes=41,no=42,missing=41
+					41:leaf=0.0526973
+					42:leaf=-0.125095
+				22:[is_same_field<1] yes=43,no=44,missing=43
+					43:leaf=0.0452854
+					44:leaf=0.0951784
+	2:[qs_term_co_click_iter1_norm<0.748147] yes=5,no=6,missing=5
+		5:[window_size<63] yes=11,no=12,missing=11
+			11:[qs_pdw_img_sim<1.56399] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<0.047012] yes=45,no=46,missing=45
+					45:leaf=0.0610288
+					46:leaf=0.00770596
+				24:[qs_prod_co_click_iter1_norm<0.864162] yes=47,no=48,missing=47
+					47:leaf=0.0495026
+					48:leaf=0.0814492
+			12:[qs_attr_value_sim<0.528019] yes=25,no=26,missing=25
+				25:[match_ratio<0.416667] yes=49,no=50,missing=49
+					49:leaf=-0.158474
+					50:leaf=-0.0170953
+				26:[bm25_12_dump<3.89651] yes=51,no=52,missing=51
+					51:leaf=-0.0980212
+					52:leaf=0.0455219
+		6:[match_count<4] yes=13,no=14,missing=13
+			13:[qs_attr_value_sim<0.255353] yes=27,no=28,missing=27
+				27:[qs_prod_co_click_iter1_norm<0.983746] yes=53,no=54,missing=53
+					53:leaf=0.0216714
+					54:leaf=0.0884563
+				28:[qs_prod_co_click_iter1_norm<0.801872] yes=55,no=56,missing=55
+					55:leaf=0.0502202
+					56:leaf=0.085159
+			14:[qs_term_co_click_iter1_norm<0.763981] yes=29,no=30,missing=29
+				29:leaf=-0.139806
+				30:[window_size<42] yes=57,no=58,missing=57
+					57:leaf=0.0406957
+					58:leaf=-0.0342202
+booster[19]:
+0:[qs_term_co_click_iter1_norm<0.657029] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[q_product_is_broad<1] yes=7,no=8,missing=7
+			7:[qs_prod_conflict_match_ratio<0.154762] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<28.8775] yes=31,no=32,missing=31
+					31:leaf=-0.00755572
+					32:leaf=0.0365088
+				16:[qs_attr_sim<0.885987] yes=33,no=34,missing=33
+					33:leaf=-0.0582336
+					34:leaf=-0.00826936
+			8:[is_same_field<1] yes=17,no=18,missing=17
+				17:[qs_attr_value_sim<0.244748] yes=35,no=36,missing=35
+					35:leaf=-0.0552536
+					36:leaf=0.0478827
+				18:[bm25_12_dump<10.0516] yes=37,no=38,missing=37
+					37:leaf=0.108909
+					38:leaf=0.0297767
+		4:[qs_attr_value_sim<0.481045] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.70606] yes=19,no=20,missing=19
+				19:[window_size<25] yes=39,no=40,missing=39
+					39:leaf=0.0182991
+					40:leaf=-0.0330722
+				20:[window_size<2] yes=41,no=42,missing=41
+					41:leaf=0.0751415
+					42:leaf=0.019258
+			10:[qs_prod_conflict_match_ratio<0.291667] yes=21,no=22,missing=21
+				21:[qs_prod_co_click_iter1_norm<0.320104] yes=43,no=44,missing=43
+					43:leaf=0.089862
+					44:leaf=0.0535428
+				22:[qs_attr_value_sim<0.645217] yes=45,no=46,missing=45
+					45:leaf=-0.086595
+					46:leaf=0.0818973
+	2:[qs_prod_match<1] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.72152] yes=11,no=12,missing=11
+			11:[qs_prod_conflict_match_ratio<0.225] yes=23,no=24,missing=23
+				23:[qs_attr_sim<0.192131] yes=47,no=48,missing=47
+					47:leaf=-0.048537
+					48:leaf=0.032743
+				24:[qs_product_match_cidname<1] yes=49,no=50,missing=49
+					49:leaf=-0.0342958
+					50:leaf=-0.129964
+			12:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.997272] yes=51,no=52,missing=51
+					51:leaf=0.0707598
+					52:leaf=0.00107934
+				26:[qs_attr_value_sim<0.420779] yes=53,no=54,missing=53
+					53:leaf=-0.0984088
+					54:leaf=0.0439786
+		6:[window_size<71] yes=13,no=14,missing=13
+			13:[qs_prod_co_click_iter1_norm<0.674204] yes=27,no=28,missing=27
+				27:[bm25_12_dump<7.85847] yes=55,no=56,missing=55
+					55:leaf=0.0847611
+					56:leaf=-0.0115777
+				28:[match_count<4] yes=57,no=58,missing=57
+					57:leaf=0.0782763
+					58:leaf=0.0273475
+			14:[q_product_is_broad<1] yes=29,no=30,missing=29
+				29:[qs_xinghaoci_co_click_iter1_norm<0.577372] yes=59,no=60,missing=59
+					59:leaf=0.0247737
+					60:leaf=-0.0976393
+				30:[qs_term_co_click_iter1_norm<0.7852] yes=61,no=62,missing=61
+					61:leaf=0.018367
+					62:leaf=0.109162
+booster[20]:
+0:[qs_prod_co_click_iter1_norm<0.724155] yes=1,no=2,missing=1
+	1:[qs_sim_prod_match<1] yes=3,no=4,missing=3
+		3:[window_size<5] yes=7,no=8,missing=7
+			7:[q_has_brand<1] yes=15,no=16,missing=15
+				15:[match_count<2] yes=31,no=32,missing=31
+					31:leaf=-0.016036
+					32:leaf=0.0290121
+				16:[q_has_attr<1] yes=33,no=34,missing=33
+					33:leaf=0.0911032
+					34:leaf=0.0262104
+			8:[q_has_attr<1] yes=17,no=18,missing=17
+				17:[qs_attr_value_sim<0.552738] yes=35,no=36,missing=35
+					35:leaf=-0.0553788
+					36:leaf=-0.00233866
+				18:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=37,no=38,missing=37
+					37:leaf=0.00479338
+					38:leaf=-0.0859923
+		4:[qs_pdw_img_sim<1.56124] yes=9,no=10,missing=9
+			9:[bm25_2_all_dump<32.5306] yes=19,no=20,missing=19
+				19:[qs_match_product_relev_cate<1] yes=39,no=40,missing=39
+					39:leaf=0.111796
+					40:leaf=0.012449
+				20:[qs_attr_value_sim<0.408336] yes=41,no=42,missing=41
+					41:leaf=-0.158355
+					42:leaf=-0.020479
+			10:[window_size<53] yes=21,no=22,missing=21
+				21:[qs_sim_prod_match_ratio<0.163333] yes=43,no=44,missing=43
+					43:leaf=0.0854077
+					44:leaf=0.0515278
+				22:[qs_sim_prod_match_ratio<0.875] yes=45,no=46,missing=45
+					45:leaf=0.0342614
+					46:leaf=-0.0765045
+	2:[qs_img_sim<1.73423] yes=5,no=6,missing=5
+		5:[qs_attr_value_sim<0.374889] yes=11,no=12,missing=11
+			11:[qs_prod_co_click_iter1_norm<0.983173] yes=23,no=24,missing=23
+				23:[window_size<2] yes=47,no=48,missing=47
+					47:leaf=0.0171829
+					48:leaf=-0.0281191
+				24:[match_ratio<0.416667] yes=49,no=50,missing=49
+					49:leaf=-0.0514494
+					50:leaf=0.072755
+			12:[q_has_product<1] yes=25,no=26,missing=25
+				25:[q_has_brand<1] yes=51,no=52,missing=51
+					51:leaf=-0.0279272
+					52:leaf=0.0618035
+				26:[qs_term_co_click_iter1_norm<0.523336] yes=53,no=54,missing=53
+					53:leaf=0.0181296
+					54:leaf=0.0606867
+		6:[window_size<40] yes=13,no=14,missing=13
+			13:[q_has_product<1] yes=27,no=28,missing=27
+				27:[qs_sim_prod_match_ratio<0.162281] yes=55,no=56,missing=55
+					55:leaf=0.0556159
+					56:leaf=-0.154355
+				28:[qs_xinghaoci_co_click_iter1_norm<0.948731] yes=57,no=58,missing=57
+					57:leaf=0.0859373
+					58:leaf=-0.0183135
+			14:[qs_term_co_click_iter1_norm<0.768047] yes=29,no=30,missing=29
+				29:[bm25_12_all_dump<8.09261] yes=59,no=60,missing=59
+					59:leaf=0.0743975
+					60:leaf=0.000568862
+				30:[qs_attr_sim<0.0976071] yes=61,no=62,missing=61
+					61:leaf=-0.121221
+					62:leaf=0.0615569
+booster[21]:
+0:[qs_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_img_sim<1.64832] yes=3,no=4,missing=3
+		3:[qs_pdw_img_sim<1.00771] yes=7,no=8,missing=7
+			7:[qs_match_high_clk_relev_cate<1] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<6.63935] yes=31,no=32,missing=31
+					31:leaf=-0.0503517
+					32:leaf=0.00995064
+				16:[bm25_2_all_dump<12.3012] yes=33,no=34,missing=33
+					33:leaf=0.0159278
+					34:leaf=0.0536921
+			8:[qs_sim_prod_match<1] yes=17,no=18,missing=17
+				17:[qs_brand_match_shopname<1] yes=35,no=36,missing=35
+					35:leaf=-0.0416761
+					36:leaf=0.0215508
+				18:[qs_pdw_img_sim<1.55709] yes=37,no=38,missing=37
+					37:leaf=-0.0126196
+					38:leaf=0.0563313
+		4:[qs_term_co_click_iter1_norm<0.495505] yes=9,no=10,missing=9
+			9:[q_product_is_broad<1] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.111681] yes=39,no=40,missing=39
+					39:leaf=-0.0611487
+					40:leaf=0.0048096
+				20:[is_same_field<1] yes=41,no=42,missing=41
+					41:leaf=0.0360754
+					42:leaf=0.101111
+			10:[qs_match_high_relev_cate<1] yes=21,no=22,missing=21
+				21:[qs_match_high_clk_relev_cate<1] yes=43,no=44,missing=43
+					43:leaf=0.0196985
+					44:leaf=-0.0475857
+				22:[window_size<13] yes=45,no=46,missing=45
+					45:leaf=0.0629676
+					46:leaf=0.0290551
+	2:[qs_term_co_click_iter1_norm<0.748147] yes=5,no=6,missing=5
+		5:[window_size<63] yes=11,no=12,missing=11
+			11:[qs_pdw_img_sim<1.68109] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<1.68082] yes=47,no=48,missing=47
+					47:leaf=0.0319717
+					48:leaf=-0.366074
+				24:[qs_attr_sim<0.0168971] yes=49,no=50,missing=49
+					49:leaf=-0.0644455
+					50:leaf=0.0628047
+			12:[qs_attr_value_sim<0.528019] yes=25,no=26,missing=25
+				25:[bm25_12_dump<14.327] yes=51,no=52,missing=51
+					51:leaf=-0.0377223
+					52:leaf=0.0628526
+				26:[bm25_12_dump<3.89651] yes=53,no=54,missing=53
+					53:leaf=-0.0963795
+					54:leaf=0.0369589
+		6:[match_count<4] yes=13,no=14,missing=13
+			13:[qs_attr_value_sim<0.063941] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.58583] yes=55,no=56,missing=55
+					55:leaf=-0.0702868
+					56:leaf=0.0320742
+				28:[qs_prod_co_click_iter1_norm<0.801872] yes=57,no=58,missing=57
+					57:leaf=0.0352605
+					58:leaf=0.0754071
+			14:[window_size<1] yes=29,no=30,missing=29
+				29:[qs_sim_prod_match_ratio<0.124041] yes=59,no=60,missing=59
+					59:leaf=0.1015
+					60:leaf=-0.0183731
+				30:[qs_attr_match_attr<1] yes=61,no=62,missing=61
+					61:leaf=-0.0245885
+					62:leaf=0.0404593
+booster[22]:
+0:[qs_term_co_click_iter1_norm<0.657029] yes=1,no=2,missing=1
+	1:[qs_attr_value_sim<0.366613] yes=3,no=4,missing=3
+		3:[is_same_field<1] yes=7,no=8,missing=7
+			7:[qs_img_sim<1.5701] yes=15,no=16,missing=15
+				15:[bm25_12_all_dump<42.8559] yes=31,no=32,missing=31
+					31:leaf=-0.0789012
+					32:leaf=0.0684129
+				16:[bm25_12_dump<14.3572] yes=33,no=34,missing=33
+					33:leaf=-0.0273627
+					34:leaf=0.065135
+			8:[qs_brand_match_shopname<1] yes=17,no=18,missing=17
+				17:[qs_prod_match_ratio<0.75] yes=35,no=36,missing=35
+					35:leaf=-0.0132883
+					36:leaf=0.0192848
+				18:[qs_brand_match_synonyms<1] yes=37,no=38,missing=37
+					37:leaf=0.104908
+					38:leaf=0.00960529
+		4:[window_size<2] yes=9,no=10,missing=9
+			9:[q_has_brand<1] yes=19,no=20,missing=19
+				19:[q_has_product<1] yes=39,no=40,missing=39
+					39:leaf=-0.00704856
+					40:leaf=0.0370533
+				20:[bm25_12_dump<18.0607] yes=41,no=42,missing=41
+					41:leaf=0.0990556
+					42:leaf=0.0341474
+			10:[qs_sim_prod_match<1] yes=21,no=22,missing=21
+				21:[q_has_attr<1] yes=43,no=44,missing=43
+					43:leaf=-0.0287675
+					44:leaf=0.0141389
+				22:[bm25_2_all_dump<7.83783] yes=45,no=46,missing=45
+					45:leaf=0.0853835
+					46:leaf=0.0208088
+	2:[qs_prod_conflict_match_ratio<0.464286] yes=5,no=6,missing=5
+		5:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=11,no=12,missing=11
+			11:[qs_img_sim<1.73941] yes=23,no=24,missing=23
+				23:[qs_attr_value_sim<0.248143] yes=47,no=48,missing=47
+					47:leaf=0.0053774
+					48:leaf=0.0480204
+				24:[window_size<40] yes=49,no=50,missing=49
+					49:leaf=0.0786445
+					50:leaf=0.044904
+			12:[qs_xinghaoci_co_click_iter1_norm<0.648264] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.999336] yes=51,no=52,missing=51
+					51:leaf=-0.147235
+					52:leaf=0.0822604
+				26:[qs_attr_sim<0.428546] yes=53,no=54,missing=53
+					53:leaf=-0.0861188
+					54:leaf=0.0318422
+		6:[q_has_brand<1] yes=13,no=14,missing=13
+			13:[qs_product_match_cidname<1] yes=27,no=28,missing=27
+				27:[q_has_product<1] yes=55,no=56,missing=55
+					55:leaf=-0.0940335
+					56:leaf=0.0427155
+				28:[window_size<2] yes=57,no=58,missing=57
+					57:leaf=0.0404534
+					58:leaf=-0.122439
+			14:[bm25_12_dump<20.1056] yes=29,no=30,missing=29
+				29:[qs_attr_value_sim<0.494692] yes=59,no=60,missing=59
+					59:leaf=-0.086757
+					60:leaf=0.0299413
+				30:[qs_pdw_img_sim<1.72805] yes=61,no=62,missing=61
+					61:leaf=-0.166644
+					62:leaf=-0.039933
+booster[23]:
+0:[qs_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_img_sim<1.73319] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.154762] yes=7,no=8,missing=7
+			7:[qs_match_high_relev_cate<1] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<5.81285] yes=31,no=32,missing=31
+					31:leaf=-0.0600928
+					32:leaf=-0.0136578
+				16:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=33,no=34,missing=33
+					33:leaf=0.0142017
+					34:leaf=-0.0772262
+			8:[bm25_2_all_dump<23.774] yes=17,no=18,missing=17
+				17:[qs_pdw_img_sim<1.62081] yes=35,no=36,missing=35
+					35:leaf=-0.0478788
+					36:leaf=-0.004989
+				18:[qs_product_match_cidname<1] yes=37,no=38,missing=37
+					37:leaf=-0.055812
+					38:leaf=-0.118522
+		4:[qs_attr_value_sim<0.131582] yes=9,no=10,missing=9
+			9:[bm25_12_all_dump<5.99554] yes=19,no=20,missing=19
+				19:[qs_prod_co_click_iter1_norm<0.511172] yes=39,no=40,missing=39
+					39:leaf=-0.115943
+					40:leaf=0.0257152
+				20:[qs_xinghaoci_co_click_iter1_norm<0.0548691] yes=41,no=42,missing=41
+					41:leaf=0.0124995
+					42:leaf=-0.0968728
+			10:[is_same_field<1] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.997505] yes=43,no=44,missing=43
+					43:leaf=0.0144713
+					44:leaf=-0.158381
+				22:[qs_sim_prod_match<1] yes=45,no=46,missing=45
+					45:leaf=0.041777
+					46:leaf=0.079744
+	2:[qs_prod_co_click_iter1_norm<0.861104] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.59546] yes=11,no=12,missing=11
+			11:[qs_img_sim<0.0227243] yes=23,no=24,missing=23
+				23:[bm25_12_dump<3.67538] yes=47,no=48,missing=47
+					47:leaf=-0.0834279
+					48:leaf=0.0536904
+				24:[qs_pdw_img_sim<1.41422] yes=49,no=50,missing=49
+					49:leaf=-0.0853686
+					50:leaf=0.00125811
+			12:[qs_prod_conflict_match_ratio<0.45] yes=25,no=26,missing=25
+				25:[window_size<33] yes=51,no=52,missing=51
+					51:leaf=0.0474042
+					52:leaf=0.00590156
+				26:[bm25_12_all_dump<24.0599] yes=53,no=54,missing=53
+					53:leaf=0.02319
+					54:leaf=-0.120407
+		6:[window_size<71] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.68684] yes=27,no=28,missing=27
+				27:[qs_prod_co_click_iter1_norm<0.993811] yes=55,no=56,missing=55
+					55:leaf=0.0426234
+					56:leaf=0.0836359
+				28:[match_count<4] yes=57,no=58,missing=57
+					57:leaf=0.0820773
+					58:leaf=0.0273779
+			14:[match_ratio<0.366667] yes=29,no=30,missing=29
+				29:[q_has_brand<1] yes=59,no=60,missing=59
+					59:leaf=0.0121458
+					60:leaf=-0.212597
+				30:[qs_attr_value_sim<0.402954] yes=61,no=62,missing=61
+					61:leaf=-0.0106201
+					62:leaf=0.038416
+booster[24]:
+0:[qs_prod_co_click_iter1_norm<0.789839] yes=1,no=2,missing=1
+	1:[qs_attr_value_sim<0.398557] yes=3,no=4,missing=3
+		3:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=7,no=8,missing=7
+			7:[window_size<6] yes=15,no=16,missing=15
+				15:[q_has_brand<1] yes=31,no=32,missing=31
+					31:leaf=-0.000557723
+					32:leaf=0.0482048
+				16:[q_has_attr<1] yes=33,no=34,missing=33
+					33:leaf=-0.0461447
+					34:leaf=0.00106242
+			8:[qs_xinghaoci_co_click_iter1_norm<0.998848] yes=17,no=18,missing=17
+				17:[bm25_2_dump<7.06451] yes=35,no=36,missing=35
+					35:leaf=-0.0137936
+					36:leaf=-0.108895
+				18:[qs_prod_conflict_match<1] yes=37,no=38,missing=37
+					37:leaf=0.0893514
+					38:leaf=-0.0903028
+		4:[qs_sim_prod_match<1] yes=9,no=10,missing=9
+			9:[qs_sim_prod_match_ratio<0.279221] yes=19,no=20,missing=19
+				19:[qs_prod_co_click_iter1_norm<-0.5] yes=39,no=40,missing=39
+					39:leaf=0.0465458
+					40:leaf=0.00718421
+				20:[qs_match_high_relev_cate<1] yes=41,no=42,missing=41
+					41:leaf=-0.0729674
+					42:leaf=-0.318088
+			10:[is_same_field<1] yes=21,no=22,missing=21
+				21:[qs_sim_prod_match_ratio<0.833333] yes=43,no=44,missing=43
+					43:leaf=0.0103594
+					44:leaf=-0.142507
+				22:[bm25_12_dump<24.0466] yes=45,no=46,missing=45
+					45:leaf=0.0521158
+					46:leaf=-0.0729044
+	2:[qs_attr_value_sim<0.0585603] yes=5,no=6,missing=5
+		5:[qs_prod_co_click_iter1_norm<0.995753] yes=11,no=12,missing=11
+			11:[bm25_12_dump<7.58921] yes=23,no=24,missing=23
+				23:[qs_term_co_click_iter1_norm<0.827115] yes=47,no=48,missing=47
+					47:leaf=0.0437876
+					48:leaf=-0.0643769
+				24:[bm25_2_dump<8.20403] yes=49,no=50,missing=49
+					49:leaf=-0.200809
+					50:leaf=-0.0373022
+			12:[bm25_2_dump<5.61351] yes=25,no=26,missing=25
+				25:leaf=-0.0486022
+				26:leaf=0.100517
+		6:[q_has_product<1] yes=13,no=14,missing=13
+			13:[q_has_brand<1] yes=27,no=28,missing=27
+				27:[q_has_attr<1] yes=51,no=52,missing=51
+					51:leaf=-0.0963066
+					52:leaf=0.0336549
+				28:[window_size<2] yes=53,no=54,missing=53
+					53:leaf=0.0922912
+					54:leaf=-0.000157634
+			14:[window_size<71] yes=29,no=30,missing=29
+				29:[qs_img_sim<1.7094] yes=55,no=56,missing=55
+					55:leaf=0.0457365
+					56:leaf=0.075859
+				30:[bm25_12_all_dump<5.23209] yes=57,no=58,missing=57
+					57:leaf=0.0759861
+					58:leaf=0.0159243
+booster[25]:
+0:[qs_term_co_click_iter1_norm<0.700372] yes=1,no=2,missing=1
+	1:[window_size<5] yes=3,no=4,missing=3
+		3:[q_has_brand<1] yes=7,no=8,missing=7
+			7:[q_has_product<1] yes=15,no=16,missing=15
+				15:[q_has_attr<1] yes=31,no=32,missing=31
+					31:leaf=-0.10322
+					32:leaf=0.0170357
+				16:[qs_img_sim<1.65032] yes=33,no=34,missing=33
+					33:leaf=0.00521114
+					34:leaf=0.0372233
+			8:[qs_attr_sim<0.142579] yes=17,no=18,missing=17
+				17:[qs_attr_sim<-0.5] yes=35,no=36,missing=35
+					35:leaf=0.0482652
+					36:leaf=-0.0434512
+				18:[window_size<1] yes=37,no=38,missing=37
+					37:leaf=0.0886862
+					38:leaf=-0.0027392
+		4:[qs_attr_value_sim<0.0921389] yes=9,no=10,missing=9
+			9:[qs_product_match_synonyms<1] yes=19,no=20,missing=19
+				19:[match_count<2] yes=39,no=40,missing=39
+					39:leaf=-0.000894275
+					40:leaf=-0.0440414
+				20:[qs_sim_prod_match<1] yes=41,no=42,missing=41
+					41:leaf=-0.0848855
+					42:leaf=0.00866064
+			10:[bm25_2_dump<3.1089] yes=21,no=22,missing=21
+				21:[qs_img_sim<1.66588] yes=43,no=44,missing=43
+					43:leaf=0.0098073
+					44:leaf=0.055659
+				22:[qs_prod_co_click_iter1_norm<-0.5] yes=45,no=46,missing=45
+					45:leaf=0.0370945
+					46:leaf=-0.0143988
+	2:[qs_attr_value_sim<0.248493] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.69394] yes=11,no=12,missing=11
+			11:[qs_attr_sim<0.935242] yes=23,no=24,missing=23
+				23:[qs_prod_conflict_match_ratio<0.416667] yes=47,no=48,missing=47
+					47:leaf=-0.000342084
+					48:leaf=-0.0880039
+				24:[qs_prod_co_click_iter1_norm<0.936532] yes=49,no=50,missing=49
+					49:leaf=-0.185361
+					50:leaf=-0.00206244
+			12:[qs_xinghaoci_co_click_iter1_norm<0.281949] yes=25,no=26,missing=25
+				25:[bm25_12_all_dump<31.1873] yes=51,no=52,missing=51
+					51:leaf=0.0608395
+					52:leaf=-0.010027
+				26:[bm25_12_dump<16.3444] yes=53,no=54,missing=53
+					53:leaf=-0.219165
+					54:leaf=0.0567
+		6:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.78011] yes=27,no=28,missing=27
+				27:[qs_prod_match<1] yes=55,no=56,missing=55
+					55:leaf=0.0272392
+					56:leaf=0.0534059
+				28:[window_size<42] yes=57,no=58,missing=57
+					57:leaf=0.0784223
+					58:leaf=0.0407
+			14:[qs_xinghaoci_co_click_iter1_norm<0.402369] yes=29,no=30,missing=29
+				29:[bm25_12_all_dump<32.7856] yes=59,no=60,missing=59
+					59:leaf=-0.219757
+					60:leaf=-0.000169788
+				30:[qs_attr_value_sim<0.562793] yes=61,no=62,missing=61
+					61:leaf=-0.0382927
+					62:leaf=0.0333566
+booster[26]:
+0:[qs_prod_co_click_iter1_norm<0.820258] yes=1,no=2,missing=1
+	1:[qs_img_sim<1.65034] yes=3,no=4,missing=3
+		3:[qs_pdw_img_sim<1.00771] yes=7,no=8,missing=7
+			7:[bm25_2_all_dump<6.26527] yes=15,no=16,missing=15
+				15:[q_has_attr<1] yes=31,no=32,missing=31
+					31:leaf=-0.0592804
+					32:leaf=0.00918803
+				16:[qs_attr_value_sim<0.788621] yes=33,no=34,missing=33
+					33:leaf=0.0255701
+					34:leaf=0.0810614
+			8:[qs_pdw_img_sim<1.5282] yes=17,no=18,missing=17
+				17:[qs_sim_prod_match_ratio<0.464286] yes=35,no=36,missing=35
+					35:leaf=-0.0414794
+					36:leaf=-0.125552
+				18:[qs_attr_sim<0.143923] yes=37,no=38,missing=37
+					37:leaf=-0.0462612
+					38:leaf=0.0043759
+		4:[qs_prod_conflict_match_ratio<0.309524] yes=9,no=10,missing=9
+			9:[qs_img_sim<1.82462] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.106844] yes=39,no=40,missing=39
+					39:leaf=-0.030129
+					40:leaf=0.0243004
+				20:[qs_sim_prod_match_ratio<0.195238] yes=41,no=42,missing=41
+					41:leaf=0.077264
+					42:leaf=0.0169628
+			10:[bm25_12_all_dump<24.4555] yes=21,no=22,missing=21
+				21:[qs_term_co_click_iter1_norm<0.619297] yes=43,no=44,missing=43
+					43:leaf=-0.0101085
+					44:leaf=0.063537
+				22:[qs_attr_value_sim<0.549973] yes=45,no=46,missing=45
+					45:leaf=-0.0889828
+					46:leaf=0.0126544
+	2:[window_size<25] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.68684] yes=11,no=12,missing=11
+			11:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<1.18135] yes=47,no=48,missing=47
+					47:leaf=0.0673317
+					48:leaf=0.0277871
+				24:[qs_xinghaoci_co_click_iter1_norm<0.571475] yes=49,no=50,missing=49
+					49:leaf=-0.196793
+					50:leaf=-0.0263378
+			12:[qs_match_high_relev_cate<1] yes=25,no=26,missing=25
+				25:[q_has_brand<1] yes=51,no=52,missing=51
+					51:leaf=-0.038121
+					52:leaf=0.0893984
+				26:[q_has_product<1] yes=53,no=54,missing=53
+					53:leaf=0.0398085
+					54:leaf=0.0714475
+		6:[qs_attr_value_sim<0.568677] yes=13,no=14,missing=13
+			13:[qs_brand_match_shopname<1] yes=27,no=28,missing=27
+				27:[qs_attr_match_synonyms<1] yes=55,no=56,missing=55
+					55:leaf=-0.0297941
+					56:leaf=0.0245095
+				28:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=57,no=58,missing=57
+					57:leaf=0.0568908
+					58:leaf=-0.106827
+			14:[qs_term_co_click_iter1_norm<0.822426] yes=29,no=30,missing=29
+				29:[qs_attr_sim<0.993595] yes=59,no=60,missing=59
+					59:leaf=0.0327698
+					60:leaf=-0.0501262
+				30:[qs_prod_co_click_iter1_norm<0.998636] yes=61,no=62,missing=61
+					61:leaf=0.0645853
+					62:leaf=0.000996107
+booster[27]:
+0:[qs_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_sim_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_brand_match_shopname<1] yes=7,no=8,missing=7
+			7:[bm25_2_dump<22.57] yes=15,no=16,missing=15
+				15:[q_product_is_broad<1] yes=31,no=32,missing=31
+					31:leaf=-0.0138371
+					32:leaf=0.0348331
+				16:[qs_attr_value_sim<0.657005] yes=33,no=34,missing=33
+					33:leaf=0.0217018
+					34:leaf=0.0888415
+			8:[q_has_product<1] yes=17,no=18,missing=17
+				17:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=35,no=36,missing=35
+					35:leaf=0.0803701
+					36:leaf=-0.0319022
+				18:[q_product_is_broad<1] yes=37,no=38,missing=37
+					37:leaf=-0.0320195
+					38:leaf=0.0731115
+		4:[qs_pdw_img_sim<1.64425] yes=9,no=10,missing=9
+			9:[bm25_2_all_dump<34.1944] yes=19,no=20,missing=19
+				19:[qs_product_match_cidname<1] yes=39,no=40,missing=39
+					39:leaf=0.0438903
+					40:leaf=-0.0213608
+				20:[qs_sim_prod_match_ratio<0.464286] yes=41,no=42,missing=41
+					41:leaf=0.000715637
+					42:leaf=-0.182435
+			10:[qs_prod_conflict_match_ratio<0.833333] yes=21,no=22,missing=21
+				21:[qs_prod_co_click_iter1_norm<0.660317] yes=43,no=44,missing=43
+					43:leaf=0.0355029
+					44:leaf=0.074357
+				22:leaf=-0.135464
+	2:[qs_prod_co_click_iter1_norm<0.984937] yes=5,no=6,missing=5
+		5:[qs_pdw_img_sim<1.71982] yes=11,no=12,missing=11
+			11:[qs_attr_value_sim<0.482156] yes=23,no=24,missing=23
+				23:[window_size<7] yes=45,no=46,missing=45
+					45:leaf=0.014025
+					46:leaf=-0.025902
+				24:[s_is_package<1] yes=47,no=48,missing=47
+					47:leaf=0.0389698
+					48:leaf=-0.0123539
+			12:[window_size<8] yes=25,no=26,missing=25
+				25:[qs_attr_value_sim<0.665162] yes=49,no=50,missing=49
+					49:leaf=0.0710843
+					50:leaf=0.0330035
+				26:[qs_attr_value_sim<0.578933] yes=51,no=52,missing=51
+					51:leaf=0.0105625
+					52:leaf=0.0610792
+		6:[match_count<3] yes=13,no=14,missing=13
+			13:[match_ratio<0.833333] yes=27,no=28,missing=27
+				27:[qs_attr_sim<0.999807] yes=53,no=54,missing=53
+					53:leaf=0.0433023
+					54:leaf=-0.170045
+				28:[qs_attr_sim<-0.5] yes=55,no=56,missing=55
+					55:leaf=-0.0212327
+					56:leaf=0.0841276
+			14:[qs_term_co_click_iter1_norm<0.806339] yes=29,no=30,missing=29
+				29:[bm25_12_dump<20.6808] yes=57,no=58,missing=57
+					57:leaf=-0.104608
+					58:leaf=0.0364293
+				30:[window_size<72] yes=59,no=60,missing=59
+					59:leaf=0.0540939
+					60:leaf=-0.0670186
+booster[28]:
+0:[qs_term_co_click_iter1_norm<0.657029] yes=1,no=2,missing=1
+	1:[q_product_is_broad<1] yes=3,no=4,missing=3
+		3:[qs_pdw_img_sim<1.68847] yes=7,no=8,missing=7
+			7:[qs_img_sim<-0.016795] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<7.48374] yes=31,no=32,missing=31
+					31:leaf=-0.0270367
+					32:leaf=0.0260216
+				16:[qs_pdw_img_sim<1.5521] yes=33,no=34,missing=33
+					33:leaf=-0.0384104
+					34:leaf=-0.00263067
+			8:[qs_img_sim<1.8246] yes=17,no=18,missing=17
+				17:[qs_attr_sim<0.0978212] yes=35,no=36,missing=35
+					35:leaf=-0.0449997
+					36:leaf=0.0162293
+				18:[qs_prod_conflict_match_ratio<0.291667] yes=37,no=38,missing=37
+					37:leaf=0.0672501
+					38:leaf=-0.0515506
+		4:[window_size<2] yes=9,no=10,missing=9
+			9:[bm25_12_dump<9.69469] yes=19,no=20,missing=19
+				19:[qs_term_co_click_iter1_norm<0.622758] yes=39,no=40,missing=39
+					39:leaf=0.11779
+					40:leaf=0.0202007
+				20:[qs_attr_value_sim<0.234188] yes=41,no=42,missing=41
+					41:leaf=-0.040828
+					42:leaf=0.0732112
+			10:[match_ratio<0.225] yes=21,no=22,missing=21
+				21:[qs_brand_match_shopname<1] yes=43,no=44,missing=43
+					43:leaf=0.0607406
+					44:leaf=0.12968
+				22:[qs_attr_value_sim<0.245618] yes=45,no=46,missing=45
+					45:leaf=-0.023026
+					46:leaf=0.0353897
+	2:[qs_prod_conflict_match_ratio<0.464286] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.62565] yes=11,no=12,missing=11
+			11:[qs_img_sim<1.04709] yes=23,no=24,missing=23
+				23:[window_size<50] yes=47,no=48,missing=47
+					47:leaf=0.0605165
+					48:leaf=0.00630638
+				24:[qs_pdw_img_sim<1.49189] yes=49,no=50,missing=49
+					49:leaf=-0.0505347
+					50:leaf=0.0156682
+			12:[window_size<9] yes=25,no=26,missing=25
+				25:[qs_xinghaoci_co_click_iter1_norm<0.201695] yes=51,no=52,missing=51
+					51:leaf=0.0588641
+					52:leaf=-0.0160748
+				26:[qs_brand_match_shopname<1] yes=53,no=54,missing=53
+					53:leaf=0.0166678
+					54:leaf=0.0568227
+		6:[q_has_brand<1] yes=13,no=14,missing=13
+			13:[qs_product_match_cidname<1] yes=27,no=28,missing=27
+				27:[qs_match_high_relev_cate<1] yes=55,no=56,missing=55
+					55:leaf=-0.0746144
+					56:leaf=0.0360297
+				28:[window_size<2] yes=57,no=58,missing=57
+					57:leaf=0.0332589
+					58:leaf=-0.109523
+			14:[bm25_12_dump<20.1056] yes=29,no=30,missing=29
+				29:[qs_attr_sim<0.582719] yes=59,no=60,missing=59
+					59:leaf=-0.112763
+					60:leaf=-0.00694712
+				30:[qs_pdw_img_sim<1.72805] yes=61,no=62,missing=61
+					61:leaf=-0.160053
+					62:leaf=-0.0393599
+booster[29]:
+0:[qs_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_sim_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_conflict_match_ratio<0.183333] yes=7,no=8,missing=7
+			7:[qs_brand_match_shopname<1] yes=15,no=16,missing=15
+				15:[qs_sim_prod_match_ratio<0.114379] yes=31,no=32,missing=31
+					31:leaf=-0.00276837
+					32:leaf=-0.112853
+				16:[is_same_field<1] yes=33,no=34,missing=33
+					33:leaf=-0.0351375
+					34:leaf=0.0596177
+			8:[qs_prod_co_click_iter1_norm<0.894433] yes=17,no=18,missing=17
+				17:[q_has_brand<1] yes=35,no=36,missing=35
+					35:leaf=-0.0204033
+					36:leaf=-0.067284
+				18:[qs_attr_sim<0.988624] yes=37,no=38,missing=37
+					37:leaf=-0.146263
+					38:leaf=0.0183769
+		4:[qs_prod_co_click_iter1_norm<0.837214] yes=9,no=10,missing=9
+			9:[qs_sim_prod_match_ratio<0.535714] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.891091] yes=39,no=40,missing=39
+					39:leaf=0.0367847
+					40:leaf=-0.163195
+				20:[q_has_brand<1] yes=41,no=42,missing=41
+					41:leaf=-0.00715374
+					42:leaf=-0.184054
+			10:[qs_attr_value_sim<0.0421007] yes=21,no=22,missing=21
+				21:[qs_term_co_click_iter1_norm<0.870429] yes=43,no=44,missing=43
+					43:leaf=0.0319485
+					44:leaf=-0.113483
+				22:[qs_attr_sim<0.989382] yes=45,no=46,missing=45
+					45:leaf=0.0786496
+					46:leaf=0.0152288
+	2:[qs_prod_co_click_iter1_norm<0.993335] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.74613] yes=11,no=12,missing=11
+			11:[qs_attr_value_sim<0.341686] yes=23,no=24,missing=23
+				23:[bm25_12_dump<7.39753] yes=47,no=48,missing=47
+					47:leaf=0.0244648
+					48:leaf=-0.0146489
+				24:[s_is_package<1] yes=49,no=50,missing=49
+					49:leaf=0.0317351
+					50:leaf=-0.00912327
+			12:[match_ratio<0.416667] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.936171] yes=51,no=52,missing=51
+					51:leaf=0.0203025
+					52:leaf=-0.208594
+				26:[match_count<4] yes=53,no=54,missing=53
+					53:leaf=0.0559218
+					54:leaf=-0.0105939
+		6:[window_size<66] yes=13,no=14,missing=13
+			13:[qs_attr_match_ratio<0.166667] yes=27,no=28,missing=27
+				27:[qs_match_high_relev_cate<1] yes=55,no=56,missing=55
+					55:leaf=-0.0253755
+					56:leaf=0.0808549
+				28:[qs_attr_sim<0.818957] yes=57,no=58,missing=57
+					57:leaf=0.0594824
+					58:leaf=-0.244102
+			14:[bm25_12_all_dump<17.8822] yes=29,no=30,missing=29
+				29:[qs_attr_value_sim<0.746431] yes=59,no=60,missing=59
+					59:leaf=0.0884916
+					60:leaf=-0.0745506
+				30:[bm25_12_dump<7.82774] yes=61,no=62,missing=61
+					61:leaf=-0.131546
+					62:leaf=0.0145946
+booster[30]:
+0:[qs_attr_value_sim<0.402639] yes=1,no=2,missing=1
+	1:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=3,no=4,missing=3
+		3:[qs_img_sim<1.74404] yes=7,no=8,missing=7
+			7:[window_size<6] yes=15,no=16,missing=15
+				15:[q_has_brand<1] yes=31,no=32,missing=31
+					31:leaf=-0.000180192
+					32:leaf=0.0382531
+				16:[q_has_attr<1] yes=33,no=34,missing=33
+					33:leaf=-0.0407876
+					34:leaf=-0.00419233
+			8:[qs_term_co_click_iter1_norm<0.552808] yes=17,no=18,missing=17
+				17:[bm25_12_dump<12.6579] yes=35,no=36,missing=35
+					35:leaf=-0.00793239
+					36:leaf=0.044192
+				18:[window_size<9] yes=37,no=38,missing=37
+					37:leaf=0.0633608
+					38:leaf=0.0312144
+		4:[qs_xinghaoci_co_click_iter1_norm<0.999969] yes=9,no=10,missing=9
+			9:[qs_term_co_click_iter1_norm<0.840104] yes=19,no=20,missing=19
+				19:[qs_xinghaoci_co_click_iter1_norm<0.6871] yes=39,no=40,missing=39
+					39:leaf=-0.0938689
+					40:leaf=-0.0131522
+				20:[bm25_2_all_dump<12.2644] yes=41,no=42,missing=41
+					41:leaf=0.0409695
+					42:leaf=-0.164715
+			10:[qs_attr_sim<0.514786] yes=21,no=22,missing=21
+				21:leaf=0.129204
+				22:leaf=0.0314148
+	2:[qs_term_co_click_iter1_norm<0.810744] yes=5,no=6,missing=5
+		5:[window_size<9] yes=11,no=12,missing=11
+			11:[q_has_brand<1] yes=23,no=24,missing=23
+				23:[q_has_product<1] yes=43,no=44,missing=43
+					43:leaf=-0.0273399
+					44:leaf=0.0289725
+				24:[window_size<1] yes=45,no=46,missing=45
+					45:leaf=0.0853575
+					46:leaf=0.0109448
+			12:[bm25_12_dump<6.06304] yes=25,no=26,missing=25
+				25:[qs_sim_prod_match<1] yes=47,no=48,missing=47
+					47:leaf=0.0113509
+					48:leaf=0.0564018
+				26:[qs_attr_value_sim<0.570899] yes=49,no=50,missing=49
+					49:leaf=-0.0286037
+					50:leaf=0.00586736
+		6:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=13,no=14,missing=13
+			13:[qs_brand_match_shopname<1] yes=27,no=28,missing=27
+				27:[q_has_product<1] yes=51,no=52,missing=51
+					51:leaf=0.00978907
+					52:leaf=0.0472034
+				28:[qs_prod_conflict_match_ratio<0.291667] yes=53,no=54,missing=53
+					53:leaf=0.0817797
+					54:leaf=-0.00836868
+			14:[qs_brand_match_synonyms<1] yes=29,no=30,missing=29
+				29:[qs_xinghaoci_co_click_iter1_norm<0.389076] yes=55,no=56,missing=55
+					55:leaf=-0.20835
+					56:leaf=-0.0167738
+				30:[window_size<52] yes=57,no=58,missing=57
+					57:leaf=0.0769757
+					58:leaf=-0.0579447
+booster[31]:
+0:[qs_img_sim<1.74612] yes=1,no=2,missing=1
+	1:[qs_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_img_sim<-0.016795] yes=7,no=8,missing=7
+			7:[qs_match_high_clk_relev_cate<1] yes=15,no=16,missing=15
+				15:[q_has_brand<1] yes=31,no=32,missing=31
+					31:leaf=0.00403918
+					32:leaf=-0.0479078
+				16:[qs_prod_conflict_match_ratio<0.225] yes=33,no=34,missing=33
+					33:leaf=0.0327934
+					34:leaf=-0.0491058
+			8:[qs_pdw_img_sim<1.5282] yes=17,no=18,missing=17
+				17:[qs_brand_match_shopname<1] yes=35,no=36,missing=35
+					35:leaf=-0.0451874
+					36:leaf=0.00979995
+				18:[qs_prod_co_click_iter1_norm<0.235342] yes=37,no=38,missing=37
+					37:leaf=-0.0232892
+					38:leaf=0.0109123
+		4:[qs_prod_co_click_iter1_norm<0.983192] yes=9,no=10,missing=9
+			9:[qs_prod_co_click_iter1_norm<0.0351613] yes=19,no=20,missing=19
+				19:[window_size<21] yes=39,no=40,missing=39
+					39:leaf=0.0877554
+					40:leaf=0.0321729
+				20:[qs_attr_value_sim<0.341686] yes=41,no=42,missing=41
+					41:leaf=-0.00739618
+					42:leaf=0.019388
+			10:[window_size<1] yes=21,no=22,missing=21
+				21:[qs_attr_sim<-0.5] yes=43,no=44,missing=43
+					43:leaf=-0.0456016
+					44:leaf=0.075475
+				22:[qs_attr_match_ratio<0.291667] yes=45,no=46,missing=45
+					45:leaf=0.0293571
+					46:leaf=-0.171911
+	2:[window_size<27] yes=5,no=6,missing=5
+		5:[qs_prod_co_click_iter1_norm<0.908259] yes=11,no=12,missing=11
+			11:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=23,no=24,missing=23
+				23:[bm25_2_dump<13.3851] yes=47,no=48,missing=47
+					47:leaf=0.025014
+					48:leaf=0.0595716
+				24:[qs_attr_value_sim<0.436687] yes=49,no=50,missing=49
+					49:leaf=-0.118067
+					50:leaf=0.0294408
+			12:[q_has_product<1] yes=25,no=26,missing=25
+				25:[bm25_2_dump<5.18848] yes=51,no=52,missing=51
+					51:leaf=-0.134215
+					52:leaf=0.0389454
+				26:[qs_attr_sim<0.999381] yes=53,no=54,missing=53
+					53:leaf=0.0739813
+					54:leaf=-0.00869966
+		6:[qs_pdw_img_sim<1.56532] yes=13,no=14,missing=13
+			13:[qs_img_sim<1.75376] yes=27,no=28,missing=27
+				27:leaf=0.0867387
+				28:[qs_img_sim<1.78942] yes=55,no=56,missing=55
+					55:leaf=-0.1585
+					56:leaf=-0.0240049
+			14:[qs_product_match_cidname<1] yes=29,no=30,missing=29
+				29:[qs_attr_match_ratio<0.416667] yes=57,no=58,missing=57
+					57:leaf=0.012094
+					58:leaf=-0.173849
+				30:[match_count<4] yes=59,no=60,missing=59
+					59:leaf=0.0515384
+					60:leaf=-0.103486
+booster[32]:
+0:[qs_term_co_click_iter1_norm<0.700372] yes=1,no=2,missing=1
+	1:[q_product_is_broad<1] yes=3,no=4,missing=3
+		3:[window_size<5] yes=7,no=8,missing=7
+			7:[q_has_brand<1] yes=15,no=16,missing=15
+				15:[qs_prod_co_click_iter1_norm<-0.5] yes=31,no=32,missing=31
+					31:leaf=0.0313771
+					32:leaf=-0.00494042
+				16:[window_size<1] yes=33,no=34,missing=33
+					33:leaf=0.0605227
+					34:leaf=-0.0366506
+			8:[qs_img_sim<1.58479] yes=17,no=18,missing=17
+				17:[qs_pdw_img_sim<1.00771] yes=35,no=36,missing=35
+					35:leaf=-0.00609286
+					36:leaf=-0.0441101
+				18:[qs_pdw_img_sim<1.31889] yes=37,no=38,missing=37
+					37:leaf=-0.119663
+					38:leaf=0.000189814
+		4:[window_size<5] yes=9,no=10,missing=9
+			9:[qs_prod_co_click_iter1_norm<0.623047] yes=19,no=20,missing=19
+				19:[bm25_12_dump<9.69469] yes=39,no=40,missing=39
+					39:leaf=0.118191
+					40:leaf=0.0542846
+				20:[qs_attr_value_sim<0.330289] yes=41,no=42,missing=41
+					41:leaf=-0.0176883
+					42:leaf=0.0696284
+			10:[bm25_2_dump<15.9017] yes=21,no=22,missing=21
+				21:[match_ratio<0.225] yes=43,no=44,missing=43
+					43:leaf=0.0780574
+					44:leaf=0.0208192
+				22:[bm25_2_all_dump<44.9383] yes=45,no=46,missing=45
+					45:leaf=-0.0989789
+					46:leaf=0.0814965
+	2:[qs_img_sim<1.62471] yes=5,no=6,missing=5
+		5:[qs_pdw_img_sim<0.0321454] yes=11,no=12,missing=11
+			11:[qs_match_high_clk_relev_cate<1] yes=23,no=24,missing=23
+				23:[qs_match_product_relev_cate<1] yes=47,no=48,missing=47
+					47:leaf=0.0516056
+					48:leaf=-0.0910364
+				24:[window_size<50] yes=49,no=50,missing=49
+					49:leaf=0.0596297
+					50:leaf=-0.0019533
+			12:[qs_pdw_img_sim<1.52824] yes=25,no=26,missing=25
+				25:[qs_sim_prod_match_ratio<0.464286] yes=51,no=52,missing=51
+					51:leaf=-0.0337015
+					52:leaf=-0.163827
+				26:[qs_prod_conflict_match_ratio<0.45] yes=53,no=54,missing=53
+					53:leaf=0.0165429
+					54:leaf=-0.0931144
+		6:[window_size<9] yes=13,no=14,missing=13
+			13:[qs_xinghaoci_co_click_iter1_norm<0.201695] yes=27,no=28,missing=27
+				27:[qs_prod_co_click_iter1_norm<0.975695] yes=55,no=56,missing=55
+					55:leaf=0.044637
+					56:leaf=0.0724645
+				28:[qs_img_sim<1.90284] yes=57,no=58,missing=57
+					57:leaf=-0.0384856
+					58:leaf=0.0937039
+			14:[qs_attr_value_sim<0.56126] yes=29,no=30,missing=29
+				29:[qs_attr_sim<0.994085] yes=59,no=60,missing=59
+					59:leaf=0.00336238
+					60:leaf=-0.120811
+				30:[bm25_12_all_dump<41.812] yes=61,no=62,missing=61
+					61:leaf=0.0277123
+					62:leaf=0.0711441
+booster[33]:
+0:[qs_sim_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_prod_co_click_iter1_norm<0.982537] yes=3,no=4,missing=3
+		3:[qs_attr_value_sim<0.551306] yes=7,no=8,missing=7
+			7:[qs_prod_conflict_match_ratio<0.183333] yes=15,no=16,missing=15
+				15:[qs_brand_match_shopname<1] yes=31,no=32,missing=31
+					31:leaf=-0.00925265
+					32:leaf=0.033289
+				16:[q_has_brand<1] yes=33,no=34,missing=33
+					33:leaf=-0.019421
+					34:leaf=-0.0731353
+			8:[qs_sim_prod_match_ratio<0.183333] yes=17,no=18,missing=17
+				17:[qs_img_sim<1.80154] yes=35,no=36,missing=35
+					35:leaf=0.0102786
+					36:leaf=0.0589043
+				18:[qs_attr_sim<0.919777] yes=37,no=38,missing=37
+					37:leaf=0.00194892
+					38:leaf=-0.275463
+		4:[window_size<2] yes=9,no=10,missing=9
+			9:[qs_match_product_relev_cate<1] yes=19,no=20,missing=19
+				19:[q_has_brand<1] yes=39,no=40,missing=39
+					39:leaf=0.00561679
+					40:leaf=0.0888731
+				20:[qs_prod_co_click_iter1_norm<0.994196] yes=41,no=42,missing=41
+					41:leaf=0.0538354
+					42:leaf=0.0894963
+			10:[q_has_product<1] yes=21,no=22,missing=21
+				21:[bm25_2_dump<16.8336] yes=43,no=44,missing=43
+					43:leaf=-0.0809383
+					44:leaf=0.0329802
+				22:[match_count<4] yes=45,no=46,missing=45
+					45:leaf=0.0375418
+					46:leaf=-0.0527484
+	2:[is_same_field<1] yes=5,no=6,missing=5
+		5:[qs_term_co_click_iter1_norm<0.790563] yes=11,no=12,missing=11
+			11:[qs_attr_sim<0.346976] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<1.56032] yes=47,no=48,missing=47
+					47:leaf=-0.0647441
+					48:leaf=0.10502
+				24:[bm25_12_all_dump<5.67312] yes=49,no=50,missing=49
+					49:leaf=0.040906
+					50:leaf=-0.0393149
+			12:[qs_attr_sim<0.345138] yes=25,no=26,missing=25
+				25:leaf=-0.0737682
+				26:[qs_pdw_img_sim<1.83141] yes=51,no=52,missing=51
+					51:leaf=0.059191
+					52:leaf=-0.0480507
+		6:[qs_sim_prod_match_ratio<0.188988] yes=13,no=14,missing=13
+			13:[bm25_12_dump<6.91388] yes=27,no=28,missing=27
+				27:[qs_sim_prod_match_ratio<0.0192029] yes=53,no=54,missing=53
+					53:leaf=0.00329273
+					54:leaf=0.0758998
+				28:[qs_prod_conflict_match_ratio<0.183333] yes=55,no=56,missing=55
+					55:leaf=0.0390786
+					56:leaf=-0.031912
+			14:[bm25_2_dump<9.66698] yes=29,no=30,missing=29
+				29:[qs_attr_sim<0.992941] yes=57,no=58,missing=57
+					57:leaf=0.0112863
+					58:leaf=-0.109977
+				30:[bm25_12_all_dump<19.3378] yes=59,no=60,missing=59
+					59:leaf=0.0724366
+					60:leaf=0.0279002
+booster[34]:
+0:[qs_img_sim<1.74612] yes=1,no=2,missing=1
+	1:[qs_sim_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_prod_co_click_iter1_norm<0.988421] yes=7,no=8,missing=7
+			7:[qs_img_sim<-0.016795] yes=15,no=16,missing=15
+				15:[bm25_2_all_dump<6.26527] yes=31,no=32,missing=31
+					31:leaf=-0.0171359
+					32:leaf=0.0254438
+				16:[qs_pdw_img_sim<1.5475] yes=33,no=34,missing=33
+					33:leaf=-0.0348266
+					34:leaf=-0.002823
+			8:[window_size<2] yes=17,no=18,missing=17
+				17:[qs_match_high_relev_cate<1] yes=35,no=36,missing=35
+					35:leaf=-0.00710853
+					36:leaf=0.073712
+				18:[bm25_12_all_dump<5.98411] yes=37,no=38,missing=37
+					37:leaf=-0.0777654
+					38:leaf=0.0183883
+		4:[bm25_12_all_dump<6.48882] yes=9,no=10,missing=9
+			9:[window_size<25] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.20339] yes=39,no=40,missing=39
+					39:leaf=-0.116892
+					40:leaf=0.0888639
+				20:[qs_attr_value_sim<0.364054] yes=41,no=42,missing=41
+					41:leaf=-0.0137691
+					42:leaf=0.0692033
+			10:[qs_term_co_click_iter1_norm<0.721376] yes=21,no=22,missing=21
+				21:[qs_product_match_cidname<1] yes=43,no=44,missing=43
+					43:leaf=0.014837
+					44:leaf=-0.0242378
+				22:[qs_attr_sim<0.901343] yes=45,no=46,missing=45
+					45:leaf=0.0498422
+					46:leaf=0.0121784
+	2:[qs_term_co_click_iter1_norm<0.768761] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.82249] yes=11,no=12,missing=11
+			11:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=23,no=24,missing=23
+				23:[qs_img_sim<1.81791] yes=47,no=48,missing=47
+					47:leaf=0.0186227
+					48:leaf=-0.0560381
+				24:[qs_xinghaoci_co_click_iter1_norm<0.724894] yes=49,no=50,missing=49
+					49:leaf=-0.137286
+					50:leaf=-0.0132597
+			12:[qs_attr_value_sim<0.712907] yes=25,no=26,missing=25
+				25:[qs_prod_conflict_match_ratio<0.633333] yes=51,no=52,missing=51
+					51:leaf=0.0358831
+					52:leaf=-0.0559727
+				26:[qs_sim_prod_match_ratio<0.137218] yes=53,no=54,missing=53
+					53:leaf=0.0939204
+					54:leaf=0.0269618
+		6:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=13,no=14,missing=13
+			13:[qs_attr_sim<0.993445] yes=27,no=28,missing=27
+				27:[window_size<27] yes=55,no=56,missing=55
+					55:leaf=0.0651958
+					56:leaf=0.0354557
+				28:[qs_attr_value_sim<0.546028] yes=57,no=58,missing=57
+					57:leaf=-0.103662
+					58:leaf=0.0216552
+			14:[qs_xinghaoci_co_click_iter1_norm<0.47298] yes=29,no=30,missing=29
+				29:[bm25_2_all_dump<30.8745] yes=59,no=60,missing=59
+					59:leaf=-0.211468
+					60:leaf=-0.0260028
+				30:[qs_attr_sim<0.420096] yes=61,no=62,missing=61
+					61:leaf=-0.109213
+					62:leaf=0.0268148
+booster[35]:
+0:[qs_attr_value_sim<0.296672] yes=1,no=2,missing=1
+	1:[qs_prod_conflict_match_ratio<0.788889] yes=3,no=4,missing=3
+		3:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=7,no=8,missing=7
+			7:[qs_attr_sim<0.857745] yes=15,no=16,missing=15
+				15:[qs_attr_sim<0.14351] yes=29,no=30,missing=29
+					29:leaf=-0.0136312
+					30:leaf=0.0118671
+				16:[qs_match_high_clk_relev_cate<1] yes=31,no=32,missing=31
+					31:leaf=0.0475866
+					32:leaf=-0.0442127
+			8:[qs_xinghaoci_co_click_iter1_norm<0.998758] yes=17,no=18,missing=17
+				17:[bm25_2_all_dump<13.4301] yes=33,no=34,missing=33
+					33:leaf=0.0131589
+					34:leaf=-0.103696
+				18:[match_count<2] yes=35,no=36,missing=35
+					35:leaf=-0.102802
+					36:leaf=0.0944274
+		4:[qs_prod_co_click_iter1_norm<0.814352] yes=9,no=10,missing=9
+			9:[qs_prod_co_click_iter1_norm<0.354048] yes=19,no=20,missing=19
+				19:[bm25_2_all_dump<46.583] yes=37,no=38,missing=37
+					37:leaf=-0.0746494
+					38:leaf=0.0465787
+				20:[qs_img_sim<1.64616] yes=39,no=40,missing=39
+					39:leaf=-0.0910937
+					40:leaf=0.0522469
+			10:leaf=-0.144466
+	2:[window_size<20] yes=5,no=6,missing=5
+		5:[q_has_brand<1] yes=11,no=12,missing=11
+			11:[q_has_product<1] yes=21,no=22,missing=21
+				21:[q_has_attr<1] yes=41,no=42,missing=41
+					41:leaf=-0.11133
+					42:leaf=0.0211537
+				22:[qs_pdw_img_sim<1.56373] yes=43,no=44,missing=43
+					43:leaf=0.00433146
+					44:leaf=0.0343826
+			12:[match_count<2] yes=23,no=24,missing=23
+				23:[qs_prod_conflict_match<1] yes=45,no=46,missing=45
+					45:leaf=0.0971704
+					46:leaf=-0.0803945
+				24:[qs_prod_conflict_match_ratio<0.291667] yes=47,no=48,missing=47
+					47:leaf=0.0391182
+					48:leaf=-0.0401298
+		6:[q_product_is_broad<1] yes=13,no=14,missing=13
+			13:[qs_attr_sim<0.997926] yes=25,no=26,missing=25
+				25:[qs_attr_value_sim<0.527566] yes=49,no=50,missing=49
+					49:leaf=-0.0174828
+					50:leaf=0.0127069
+				26:[bm25_12_dump<15.301] yes=51,no=52,missing=51
+					51:leaf=-0.0985735
+					52:leaf=0.00146658
+			14:[qs_prod_conflict_match_ratio<0.464286] yes=27,no=28,missing=27
+				27:[match_ratio<0.45] yes=53,no=54,missing=53
+					53:leaf=0.101742
+					54:leaf=0.0375717
+				28:[qs_match_product_relev_cate<1] yes=55,no=56,missing=55
+					55:leaf=0.103355
+					56:leaf=-0.127929
+booster[36]:
+0:[qs_img_sim<1.73869] yes=1,no=2,missing=1
+	1:[qs_sim_prod_match<1] yes=3,no=4,missing=3
+		3:[qs_img_sim<-0.016795] yes=7,no=8,missing=7
+			7:[window_size<49] yes=15,no=16,missing=15
+				15:[qs_attr_value_sim<0.808949] yes=31,no=32,missing=31
+					31:leaf=0.0221798
+					32:leaf=0.0766934
+				16:[q_has_attr<1] yes=33,no=34,missing=33
+					33:leaf=-0.0361031
+					34:leaf=0.0019383
+			8:[qs_pdw_img_sim<1.5475] yes=17,no=18,missing=17
+				17:[qs_brand_match_shopname<1] yes=35,no=36,missing=35
+					35:leaf=-0.0345478
+					36:leaf=0.011492
+				18:[qs_attr_sim<0.0839146] yes=37,no=38,missing=37
+					37:leaf=-0.0478779
+					38:leaf=0.00365293
+		4:[bm25_2_all_dump<6.11852] yes=9,no=10,missing=9
+			9:[qs_match_high_relev_cate<1] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.451704] yes=39,no=40,missing=39
+					39:leaf=-0.12084
+					40:leaf=0.0437343
+				20:[qs_sim_prod_match_ratio<0.414286] yes=41,no=42,missing=41
+					41:leaf=0.0724742
+					42:leaf=-0.0023232
+			10:[qs_term_co_click_iter1_norm<0.721376] yes=21,no=22,missing=21
+				21:[qs_product_match_cidname<1] yes=43,no=44,missing=43
+					43:leaf=0.0137874
+					44:leaf=-0.0241786
+				22:[qs_attr_sim<0.901343] yes=45,no=46,missing=45
+					45:leaf=0.0460368
+					46:leaf=0.00990278
+	2:[window_size<6] yes=5,no=6,missing=5
+		5:[qs_prod_co_click_iter1_norm<0.634873] yes=11,no=12,missing=11
+			11:[bm25_12_dump<12.903] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<1.84076] yes=47,no=48,missing=47
+					47:leaf=0.00803262
+					48:leaf=-0.0685163
+				24:[qs_xinghaoci_co_click_iter1_norm<0.147833] yes=49,no=50,missing=49
+					49:leaf=0.062164
+					50:leaf=-0.0500382
+			12:[qs_match_high_relev_cate<1] yes=25,no=26,missing=25
+				25:[bm25_12_dump<15.5351] yes=51,no=52,missing=51
+					51:leaf=-0.0426719
+					52:leaf=0.095796
+				26:[qs_attr_value_sim<0.900811] yes=53,no=54,missing=53
+					53:leaf=0.0585145
+					54:leaf=-0.0233781
+		6:[qs_term_co_click_iter1_norm<0.824196] yes=13,no=14,missing=13
+			13:[match_count<3] yes=27,no=28,missing=27
+				27:[qs_attr_sim<0.997937] yes=55,no=56,missing=55
+					55:leaf=0.0138623
+					56:leaf=-0.0951269
+				28:[qs_brand_match_shopname<1] yes=57,no=58,missing=57
+					57:leaf=-0.0119956
+					58:leaf=-0.138551
+			14:[match_count<4] yes=29,no=30,missing=29
+				29:[bm25_2_dump<16.8059] yes=59,no=60,missing=59
+					59:leaf=0.0251622
+					60:leaf=0.0696358
+				30:[qs_attr_sim<0.776139] yes=61,no=62,missing=61
+					61:leaf=0.0346826
+					62:leaf=-0.0655571
+booster[37]:
+0:[qs_prod_match<1] yes=1,no=2,missing=1
+	1:[q_product_is_broad<1] yes=3,no=4,missing=3
+		3:[qs_sim_prod_match<1] yes=7,no=8,missing=7
+			7:[bm25_2_all_dump<31.7757] yes=15,no=16,missing=15
+				15:[q_has_attr<1] yes=31,no=32,missing=31
+					31:leaf=-0.023637
+					32:leaf=-0.000657445
+				16:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=33,no=34,missing=33
+					33:leaf=0.0233805
+					34:leaf=-0.0599009
+			8:[qs_prod_co_click_iter1_norm<0.837228] yes=17,no=18,missing=17
+				17:[bm25_2_all_dump<32.3715] yes=35,no=36,missing=35
+					35:leaf=0.0171194
+					36:leaf=-0.0547844
+				18:[qs_attr_value_sim<0.0421007] yes=37,no=38,missing=37
+					37:leaf=-0.0660444
+					38:leaf=0.0607872
+		4:[bm25_2_dump<15.7465] yes=9,no=10,missing=9
+			9:[is_same_field<1] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.0528702] yes=39,no=40,missing=39
+					39:leaf=-0.0988584
+					40:leaf=0.0285714
+				20:[bm25_12_dump<8.35501] yes=41,no=42,missing=41
+					41:leaf=0.0848682
+					42:leaf=0.0327948
+			10:[qs_attr_sim<0.769388] yes=21,no=22,missing=21
+				21:[qs_prod_co_click_iter1_norm<0.807562] yes=43,no=44,missing=43
+					43:leaf=-0.132776
+					44:leaf=0.0542194
+				22:[window_size<11] yes=45,no=46,missing=45
+					45:leaf=0.0961976
+					46:leaf=-0.013737
+	2:[qs_prod_co_click_iter1_norm<0.993335] yes=5,no=6,missing=5
+		5:[match_ratio<0.366667] yes=11,no=12,missing=11
+			11:[bm25_12_all_dump<7.69927] yes=23,no=24,missing=23
+				23:[qs_term_co_click_iter1_norm<0.571651] yes=47,no=48,missing=47
+					47:leaf=0.0862494
+					48:leaf=0.0183538
+				24:[bm25_12_dump<8.27505] yes=49,no=50,missing=49
+					49:leaf=-0.195445
+					50:leaf=0.00763332
+			12:[qs_img_sim<1.74594] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.0351613] yes=51,no=52,missing=51
+					51:leaf=0.0670741
+					52:leaf=0.00729883
+				26:[match_count<4] yes=53,no=54,missing=53
+					53:leaf=0.0399509
+					54:leaf=-0.0251268
+		6:[q_has_attr<1] yes=13,no=14,missing=13
+			13:[qs_match_high_relev_cate<1] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.52115] yes=55,no=56,missing=55
+					55:leaf=-0.136175
+					56:leaf=0.0678136
+				28:[bm25_2_dump<5.86238] yes=57,no=58,missing=57
+					57:leaf=0.0215802
+					58:leaf=0.0869884
+			14:[window_size<5] yes=29,no=30,missing=29
+				29:[bm25_2_all_dump<52.1357] yes=59,no=60,missing=59
+					59:leaf=0.0891884
+					60:leaf=-0.0374515
+				30:[qs_img_sim<1.78773] yes=61,no=62,missing=61
+					61:leaf=-0.00847676
+					62:leaf=0.0470842
+booster[38]:
+0:[qs_img_sim<1.65034] yes=1,no=2,missing=1
+	1:[qs_pdw_img_sim<1.00771] yes=3,no=4,missing=3
+		3:[qs_prod_co_click_iter1_norm<0.450589] yes=7,no=8,missing=7
+			7:[qs_term_co_click_iter1_norm<0.214717] yes=15,no=16,missing=15
+				15:[window_size<29] yes=31,no=32,missing=31
+					31:leaf=0.0272374
+					32:leaf=-0.006853
+				16:[qs_term_co_click_iter1_norm<0.605749] yes=33,no=34,missing=33
+					33:leaf=-0.0659721
+					34:leaf=0.0353655
+			8:[bm25_2_dump<15.097] yes=17,no=18,missing=17
+				17:[qs_xinghaoci_co_click_iter1_norm<-0.45181] yes=35,no=36,missing=35
+					35:leaf=0.0298194
+					36:leaf=-0.119022
+				18:[qs_sim_prod_match_ratio<0.464286] yes=37,no=38,missing=37
+					37:leaf=0.0744751
+					38:leaf=-0.0617099
+		4:[qs_pdw_img_sim<1.46371] yes=9,no=10,missing=9
+			9:[qs_attr_sim<0.83091] yes=19,no=20,missing=19
+				19:[qs_term_co_click_iter1_norm<0.211286] yes=39,no=40,missing=39
+					39:leaf=-0.0658965
+					40:leaf=-0.0127875
+				20:[qs_attr_sim<0.872135] yes=41,no=42,missing=41
+					41:leaf=-0.174005
+					42:leaf=-0.0493104
+			10:[qs_attr_sim<0.0528557] yes=21,no=22,missing=21
+				21:[qs_sim_prod_match_ratio<0.267857] yes=43,no=44,missing=43
+					43:leaf=-0.0509412
+					44:leaf=0.0784887
+				22:[qs_attr_sim<0.992183] yes=45,no=46,missing=45
+					45:leaf=0.00327611
+					46:leaf=-0.0413358
+	2:[qs_term_co_click_iter1_norm<0.768761] yes=5,no=6,missing=5
+		5:[qs_attr_sim<0.0978242] yes=11,no=12,missing=11
+			11:[bm25_12_dump<14.4039] yes=23,no=24,missing=23
+				23:[qs_brand_match_shopname<1] yes=47,no=48,missing=47
+					47:leaf=-0.0707333
+					48:leaf=0.0352197
+				24:[qs_attr_sim<-0.5] yes=49,no=50,missing=49
+					49:leaf=0.103082
+					50:leaf=-0.0133526
+			12:[window_size<2] yes=25,no=26,missing=25
+				25:[q_has_brand<1] yes=51,no=52,missing=51
+					51:leaf=0.0140741
+					52:leaf=0.0792372
+				26:[bm25_2_dump<3.10552] yes=53,no=54,missing=53
+					53:leaf=0.0359453
+					54:leaf=-0.00614287
+		6:[qs_xinghaoci_co_click_iter1_norm<0.121291] yes=13,no=14,missing=13
+			13:[window_size<8] yes=27,no=28,missing=27
+				27:[qs_attr_sim<0.956372] yes=55,no=56,missing=55
+					55:leaf=0.0541503
+					56:leaf=0.0253736
+				28:[qs_brand_match_shopname<1] yes=57,no=58,missing=57
+					57:leaf=0.00985736
+					58:leaf=0.0514253
+			14:[qs_xinghaoci_co_click_iter1_norm<0.544437] yes=29,no=30,missing=29
+				29:[bm25_2_dump<16.6395] yes=59,no=60,missing=59
+					59:leaf=-0.181545
+					60:leaf=0.062755
+				30:[qs_attr_value_sim<0.551351] yes=61,no=62,missing=61
+					61:leaf=-0.0405303
+					62:leaf=0.0306208
+booster[39]:
+0:[q_product_is_broad<1] yes=1,no=2,missing=1
+	1:[qs_prod_co_click_iter1_norm<0.931257] yes=3,no=4,missing=3
+		3:[qs_sim_prod_match<1] yes=7,no=8,missing=7
+			7:[bm25_2_dump<12.8854] yes=15,no=16,missing=15
+				15:[qs_attr_sim<0.83029] yes=31,no=32,missing=31
+					31:leaf=-0.00391415
+					32:leaf=-0.0259966
+				16:[window_size<1] yes=33,no=34,missing=33
+					33:leaf=0.0260094
+					34:leaf=-0.00957988
+			8:[bm25_12_all_dump<32.6494] yes=17,no=18,missing=17
+				17:[bm25_2_dump<10.1998] yes=35,no=36,missing=35
+					35:leaf=0.0114126
+					36:leaf=0.0399732
+				18:[qs_sim_prod_match_ratio<0.464286] yes=37,no=38,missing=37
+					37:leaf=0.000826601
+					38:leaf=-0.0733112
+		4:[window_size<66] yes=9,no=10,missing=9
+			9:[match_count<4] yes=19,no=20,missing=19
+				19:[qs_brand_match_shopname<1] yes=39,no=40,missing=39
+					39:leaf=0.0280932
+					40:leaf=0.0735391
+				20:[qs_term_co_click_iter1_norm<0.90927] yes=41,no=42,missing=41
+					41:leaf=-0.0691347
+					42:leaf=0.0212737
+			10:[qs_attr_match_synonyms<1] yes=21,no=22,missing=21
+				21:[bm25_2_dump<15.1219] yes=43,no=44,missing=43
+					43:leaf=-0.0504616
+					44:leaf=0.0179818
+				22:[match_count<2] yes=45,no=46,missing=45
+					45:leaf=0.0553062
+					46:leaf=-0.026539
+	2:[qs_attr_value_sim<0.630483] yes=5,no=6,missing=5
+		5:[bm25_12_dump<18.1972] yes=11,no=12,missing=11
+			11:[qs_sim_prod_match_ratio<0.316667] yes=23,no=24,missing=23
+				23:[qs_sim_prod_match_ratio<0.0219807] yes=47,no=48,missing=47
+					47:leaf=0.0222557
+					48:leaf=0.0830357
+				24:[qs_attr_sim<0.46689] yes=49,no=50,missing=49
+					49:leaf=0.105305
+					50:leaf=-0.110075
+			12:[s_is_package<1] yes=25,no=26,missing=25
+				25:[bm25_12_all_dump<50.7448] yes=51,no=52,missing=51
+					51:leaf=-0.056811
+					52:leaf=0.064564
+				26:leaf=-0.229737
+		6:[qs_term_co_click_iter1_norm<0.955441] yes=13,no=14,missing=13
+			13:[match_count<4] yes=27,no=28,missing=27
+				27:[is_same_field<1] yes=53,no=54,missing=53
+					53:leaf=0.0508456
+					54:leaf=0.0887217
+				28:[qs_prod_match_ratio<0.75] yes=55,no=56,missing=55
+					55:leaf=-0.0652803
+					56:leaf=0.0643025
+			14:[window_size<8] yes=29,no=30,missing=29
+				29:leaf=0.0669029
+				30:leaf=-0.172951
+booster[40]:
+0:[qs_img_sim<1.7861] yes=1,no=2,missing=1
+	1:[qs_prod_conflict_match_ratio<0.708333] yes=3,no=4,missing=3
+		3:[q_product_is_broad<1] yes=7,no=8,missing=7
+			7:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=15,no=16,missing=15
+				15:[qs_prod_co_click_iter1_norm<0.988416] yes=31,no=32,missing=31
+					31:leaf=0.000691555
+					32:leaf=0.0345073
+				16:[qs_xinghaoci_co_click_iter1_norm<0.986475] yes=33,no=34,missing=33
+					33:leaf=-0.0646042
+					34:leaf=0.0160878
+			8:[bm25_12_dump<20.8684] yes=17,no=18,missing=17
+				17:[qs_attr_value_sim<0.630503] yes=35,no=36,missing=35
+					35:leaf=0.025495
+					36:leaf=0.0704663
+				18:[qs_attr_value_sim<0.456175] yes=37,no=38,missing=37
+					37:leaf=-0.170023
+					38:leaf=0.0309465
+		4:[bm25_12_all_dump<13.3094] yes=9,no=10,missing=9
+			9:[qs_pdw_img_sim<1.74938] yes=19,no=20,missing=19
+				19:[bm25_2_all_dump<12.5392] yes=39,no=40,missing=39
+					39:leaf=-0.035611
+					40:leaf=0.0760721
+				20:[qs_prod_co_click_iter1_norm<0.105716] yes=41,no=42,missing=41
+					41:leaf=-0.0770209
+					42:leaf=0.147361
+			10:[bm25_12_all_dump<45.5534] yes=21,no=22,missing=21
+				21:[qs_attr_value_sim<0.744491] yes=43,no=44,missing=43
+					43:leaf=-0.0716039
+					44:leaf=0.0106137
+				22:[q_has_brand<1] yes=45,no=46,missing=45
+					45:leaf=0.27889
+					46:leaf=-0.070329
+	2:[bm25_2_dump<16.6533] yes=5,no=6,missing=5
+		5:[qs_attr_sim<0.999367] yes=11,no=12,missing=11
+			11:[q_has_product<1] yes=23,no=24,missing=23
+				23:[qs_attr_value_sim<0.913863] yes=47,no=48,missing=47
+					47:leaf=-0.00132965
+					48:leaf=-0.169396
+				24:[qs_attr_value_sim<0.14375] yes=49,no=50,missing=49
+					49:leaf=-0.0283693
+					50:leaf=0.0361687
+			12:[qs_attr_value_sim<0.725043] yes=25,no=26,missing=25
+				25:[qs_term_co_click_iter1_norm<0.856487] yes=51,no=52,missing=51
+					51:leaf=-0.0496741
+					52:leaf=-0.283933
+				26:[qs_attr_value_sim<0.848807] yes=53,no=54,missing=53
+					53:leaf=0.0774847
+					54:leaf=-0.0599533
+		6:[qs_prod_conflict_match_ratio<0.125] yes=13,no=14,missing=13
+			13:[match_count<3] yes=27,no=28,missing=27
+				27:[qs_pdw_img_sim<1.48956] yes=55,no=56,missing=55
+					55:leaf=-0.0271067
+					56:leaf=0.0857381
+				28:[qs_xinghaoci_co_click_iter1_norm<0.940055] yes=57,no=58,missing=57
+					57:leaf=0.0488156
+					58:leaf=-0.036785
+			14:[q_has_brand<1] yes=29,no=30,missing=29
+				29:[qs_match_product_relev_cate<1] yes=59,no=60,missing=59
+					59:leaf=-0.0399746
+					60:leaf=0.109658
+				30:[window_size<31] yes=61,no=62,missing=61
+					61:leaf=-0.0177637
+					62:leaf=-0.177617
+booster[41]:
+0:[qs_attr_sim<0.136101] yes=1,no=2,missing=1
+	1:[qs_product_match_synonyms<1] yes=3,no=4,missing=3
+		3:[qs_attr_sim<-0.5] yes=7,no=8,missing=7
+			7:[is_same_field<1] yes=15,no=16,missing=15
+				15:[qs_attr_match_synonyms<1] yes=31,no=32,missing=31
+					31:leaf=-0.000435095
+					32:leaf=-0.113135
+				16:[bm25_2_all_dump<85.2401] yes=33,no=34,missing=33
+					33:leaf=0.0217464
+					34:leaf=-0.205312
+			8:[match_count<2] yes=17,no=18,missing=17
+				17:[bm25_12_all_dump<6.33868] yes=35,no=36,missing=35
+					35:leaf=-0.0657237
+					36:leaf=0.00297746
+				18:[q_has_attr<1] yes=37,no=38,missing=37
+					37:leaf=-0.0147561
+					38:leaf=-0.0800712
+		4:[qs_sim_prod_match_ratio<0.0851449] yes=9,no=10,missing=9
+			9:[bm25_12_dump<7.54298] yes=19,no=20,missing=19
+				19:[qs_attr_sim<-0.5] yes=39,no=40,missing=39
+					39:leaf=-0.0860772
+					40:leaf=0.0222253
+				20:[qs_attr_value_sim<0.118291] yes=41,no=42,missing=41
+					41:leaf=-0.125157
+					42:leaf=-0.00399989
+			10:[qs_pdw_img_sim<1.69204] yes=21,no=22,missing=21
+				21:[bm25_12_dump<6.2748] yes=43,no=44,missing=43
+					43:leaf=0.0302301
+					44:leaf=0.143393
+				22:[qs_img_sim<1.7485] yes=45,no=46,missing=45
+					45:leaf=-0.0801153
+					46:leaf=0.0689133
+	2:[qs_brand_match_shopname<1] yes=5,no=6,missing=5
+		5:[window_size<25] yes=11,no=12,missing=11
+			11:[qs_pdw_img_sim<1.5564] yes=23,no=24,missing=23
+				23:[qs_img_sim<-0.016795] yes=47,no=48,missing=47
+					47:leaf=0.0263378
+					48:leaf=-0.0199066
+				24:[qs_sim_prod_match<1] yes=49,no=50,missing=49
+					49:leaf=0.00897948
+					50:leaf=0.0349223
+			12:[bm25_2_dump<3.1089] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.0731979] yes=51,no=52,missing=51
+					51:leaf=-0.014556
+					52:leaf=0.0307377
+				26:[qs_attr_match_synonyms<1] yes=53,no=54,missing=53
+					53:leaf=-0.0283053
+					54:leaf=0.0139558
+		6:[qs_prod_conflict_match_ratio<0.183333] yes=13,no=14,missing=13
+			13:[is_same_field<1] yes=27,no=28,missing=27
+				27:[match_count<3] yes=55,no=56,missing=55
+					55:leaf=0.0189599
+					56:leaf=-0.200824
+				28:[qs_attr_match_synonyms<1] yes=57,no=58,missing=57
+					57:leaf=0.0696101
+					58:leaf=0.0303439
+			14:[qs_attr_value_sim<0.560382] yes=29,no=30,missing=29
+				29:[match_ratio<0.416667] yes=59,no=60,missing=59
+					59:leaf=0.0310551
+					60:leaf=-0.0927346
+				30:[qs_pdw_img_sim<1.71149] yes=61,no=62,missing=61
+					61:leaf=-0.029012
+					62:leaf=0.129673
+booster[42]:
+0:[qs_img_sim<1.82164] yes=1,no=2,missing=1
+	1:[q_product_is_broad<1] yes=3,no=4,missing=3
+		3:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=7,no=8,missing=7
+			7:[qs_prod_co_click_iter1_norm<0.970954] yes=15,no=16,missing=15
+				15:[qs_sim_prod_match<1] yes=31,no=32,missing=31
+					31:leaf=-0.00513794
+					32:leaf=0.0132046
+				16:[match_count<3] yes=33,no=34,missing=33
+					33:leaf=0.033064
+					34:leaf=-0.0215104
+			8:[qs_xinghaoci_co_click_iter1_norm<0.545695] yes=17,no=18,missing=17
+				17:[q_has_attr<1] yes=35,no=36,missing=35
+					35:leaf=0.0230477
+					36:leaf=-0.118691
+				18:[bm25_2_all_dump<55.0154] yes=37,no=38,missing=37
+					37:leaf=-0.00647606
+					38:leaf=-0.124156
+		4:[qs_attr_value_sim<0.630483] yes=9,no=10,missing=9
+			9:[bm25_12_dump<20.8684] yes=19,no=20,missing=19
+				19:[qs_sim_prod_match_ratio<0.316667] yes=39,no=40,missing=39
+					39:leaf=0.02769
+					40:leaf=-0.0526028
+				20:[qs_attr_match_synonyms<1] yes=41,no=42,missing=41
+					41:leaf=0.00796042
+					42:leaf=-0.186497
+			10:[qs_term_co_click_iter1_norm<0.955112] yes=21,no=22,missing=21
+				21:[qs_prod_co_click_iter1_norm<0.875721] yes=43,no=44,missing=43
+					43:leaf=0.0508312
+					44:leaf=0.0867868
+				22:[window_size<5] yes=45,no=46,missing=45
+					45:leaf=0.0545557
+					46:leaf=-0.0924016
+	2:[match_count<4] yes=5,no=6,missing=5
+		5:[bm25_2_dump<16.6533] yes=11,no=12,missing=11
+			11:[qs_attr_sim<0.14563] yes=23,no=24,missing=23
+				23:[qs_match_high_clk_relev_cate<1] yes=47,no=48,missing=47
+					47:leaf=-0.116698
+					48:leaf=0.0329816
+				24:[qs_attr_sim<0.997495] yes=49,no=50,missing=49
+					49:leaf=0.0367904
+					50:leaf=-0.0327875
+			12:[qs_prod_conflict_match_ratio<0.125] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<0.999984] yes=51,no=52,missing=51
+					51:leaf=0.0745449
+					52:leaf=-0.0479618
+				26:[bm25_12_dump<22.0977] yes=53,no=54,missing=53
+					53:leaf=0.0157119
+					54:leaf=-0.167618
+		6:[bm25_2_all_dump<32.9477] yes=13,no=14,missing=13
+			13:[bm25_12_all_dump<27.8555] yes=27,no=28,missing=27
+				27:[qs_img_sim<1.87856] yes=55,no=56,missing=55
+					55:leaf=0.0490368
+					56:leaf=-0.155567
+				28:leaf=-0.218326
+			14:[qs_xinghaoci_co_click_iter1_norm<0.752786] yes=29,no=30,missing=29
+				29:[qs_pdw_img_sim<1.67183] yes=57,no=58,missing=57
+					57:leaf=-0.0655678
+					58:leaf=0.0808436
+				30:[qs_pdw_img_sim<1.75288] yes=59,no=60,missing=59
+					59:leaf=0.0648616
+					60:leaf=-0.149158
+booster[43]:
+0:[qs_attr_value_sim<0.402639] yes=1,no=2,missing=1
+	1:[qs_attr_sim<0.830082] yes=3,no=4,missing=3
+		3:[qs_attr_sim<0.825722] yes=7,no=8,missing=7
+			7:[qs_term_co_click_iter1_norm<0.332364] yes=15,no=16,missing=15
+				15:[is_same_field<1] yes=31,no=32,missing=31
+					31:leaf=-0.0409192
+					32:leaf=-0.00621155
+				16:[q_has_product<1] yes=33,no=34,missing=33
+					33:leaf=0.0334406
+					34:leaf=-0.00182215
+			8:[q_has_product<1] yes=17,no=18,missing=17
+				17:leaf=-0.0487357
+				18:[qs_attr_value_sim<0.136499] yes=35,no=36,missing=35
+					35:leaf=0.0234328
+					36:leaf=0.117977
+		4:[qs_attr_sim<0.835195] yes=9,no=10,missing=9
+			9:[qs_prod_match<1] yes=19,no=20,missing=19
+				19:[qs_attr_value_sim<0.220981] yes=37,no=38,missing=37
+					37:leaf=-0.0137392
+					38:leaf=-0.232778
+				20:[qs_attr_value_sim<0.314292] yes=39,no=40,missing=39
+					39:leaf=0.0682814
+					40:leaf=-0.0650846
+			10:[qs_pdw_img_sim<1.72009] yes=21,no=22,missing=21
+				21:[qs_term_co_click_iter1_norm<-0.5] yes=41,no=42,missing=41
+					41:leaf=0.0300484
+					42:leaf=-0.0365639
+				22:[qs_product_match_cidname<1] yes=43,no=44,missing=43
+					43:leaf=0.00455998
+					44:leaf=0.0617434
+	2:[qs_brand_match_shopname<1] yes=5,no=6,missing=5
+		5:[q_has_product<1] yes=11,no=12,missing=11
+			11:[qs_attr_match_synonyms<1] yes=23,no=24,missing=23
+				23:[bm25_2_dump<19.4366] yes=45,no=46,missing=45
+					45:leaf=-0.0408092
+					46:leaf=0.0447758
+				24:[qs_attr_sim<0.973661] yes=47,no=48,missing=47
+					47:leaf=0.0577859
+					48:leaf=-0.0370294
+			12:[qs_prod_co_click_iter1_norm<0.854378] yes=25,no=26,missing=25
+				25:[qs_prod_co_click_iter1_norm<-0.5] yes=49,no=50,missing=49
+					49:leaf=0.0508304
+					50:leaf=0.00255306
+				26:[s_is_package<1] yes=51,no=52,missing=51
+					51:leaf=0.029615
+					52:leaf=-0.0292407
+		6:[is_same_field<1] yes=13,no=14,missing=13
+			13:[bm25_12_dump<14.8335] yes=27,no=28,missing=27
+				27:[qs_pdw_img_sim<1.71223] yes=53,no=54,missing=53
+					53:leaf=-0.0372825
+					54:leaf=0.0721841
+				28:[qs_term_co_click_iter1_norm<0.74799] yes=55,no=56,missing=55
+					55:leaf=-0.175418
+					56:leaf=-0.0242456
+			14:[qs_prod_conflict_match_ratio<0.183333] yes=29,no=30,missing=29
+				29:[qs_xinghaoci_co_click_iter1_norm<0.880846] yes=57,no=58,missing=57
+					57:leaf=0.0607532
+					58:leaf=-0.0194545
+				30:[qs_attr_value_sim<0.603205] yes=59,no=60,missing=59
+					59:leaf=-0.0874672
+					60:leaf=0.0467036
+booster[44]:
+0:[window_size<6] yes=1,no=2,missing=1
+	1:[q_has_brand<1] yes=3,no=4,missing=3
+		3:[q_has_product<1] yes=7,no=8,missing=7
+			7:[q_has_attr<1] yes=15,no=16,missing=15
+				15:[match_count<3] yes=31,no=32,missing=31
+					31:leaf=-0.0982574
+					32:leaf=0.0733372
+				16:[qs_attr_sim<0.891881] yes=33,no=34,missing=33
+					33:leaf=-0.00130616
+					34:leaf=0.0605508
+			8:[qs_prod_co_click_iter1_norm<0.993811] yes=17,no=18,missing=17
+				17:[qs_attr_sim<0.988157] yes=35,no=36,missing=35
+					35:leaf=0.013093
+					36:leaf=-0.023463
+				18:[qs_match_high_relev_cate<1] yes=37,no=38,missing=37
+					37:leaf=-0.032808
+					38:leaf=0.0765631
+		4:[q_has_attr<1] yes=9,no=10,missing=9
+			9:[qs_prod_conflict_match_ratio<0.291667] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.0732216] yes=39,no=40,missing=39
+					39:leaf=-0.00548111
+					40:leaf=0.0866321
+				20:[match_count<3] yes=41,no=42,missing=41
+					41:leaf=-0.120055
+					42:leaf=0.0270261
+			10:[qs_prod_co_click_iter1_norm<0.21553] yes=21,no=22,missing=21
+				21:[qs_pdw_img_sim<1.44325] yes=43,no=44,missing=43
+					43:leaf=0.0204671
+					44:leaf=-0.0810897
+				22:[bm25_12_dump<6.60979] yes=45,no=46,missing=45
+					45:leaf=0.0985782
+					46:leaf=0.0235531
+	2:[qs_attr_value_sim<0.611713] yes=5,no=6,missing=5
+		5:[qs_attr_sim<0.790207] yes=11,no=12,missing=11
+			11:[qs_attr_value_sim<0.0921389] yes=23,no=24,missing=23
+				23:[qs_product_match_synonyms<1] yes=47,no=48,missing=47
+					47:leaf=-0.00479933
+					48:leaf=-0.0634931
+				24:[bm25_12_dump<3.76194] yes=49,no=50,missing=49
+					49:leaf=0.034175
+					50:leaf=-0.00113671
+			12:[bm25_12_dump<6.37875] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.887615] yes=51,no=52,missing=51
+					51:leaf=-0.0389873
+					52:leaf=0.0189532
+				26:[qs_term_co_click_iter1_norm<0.274248] yes=53,no=54,missing=53
+					53:leaf=0.00388217
+					54:leaf=-0.0504634
+		6:[qs_attr_sim<0.999741] yes=13,no=14,missing=13
+			13:[match_count<4] yes=27,no=28,missing=27
+				27:[qs_term_co_click_iter1_norm<0.833254] yes=55,no=56,missing=55
+					55:leaf=0.0108255
+					56:leaf=0.0443211
+				28:[qs_sim_prod_match_ratio<0.45] yes=57,no=58,missing=57
+					57:leaf=-0.0102341
+					58:leaf=-0.246627
+			14:[q_has_product<1] yes=29,no=30,missing=29
+				29:[bm25_12_all_dump<7.63941] yes=59,no=60,missing=59
+					59:leaf=0.0769592
+					60:leaf=-0.176749
+				30:[bm25_12_dump<15.3832] yes=61,no=62,missing=61
+					61:leaf=-0.0810319
+					62:leaf=0.095329
+booster[45]:
+0:[qs_prod_conflict_match_ratio<0.788889] yes=1,no=2,missing=1
+	1:[q_product_is_broad<1] yes=3,no=4,missing=3
+		3:[qs_pdw_img_sim<1.6983] yes=7,no=8,missing=7
+			7:[qs_img_sim<-0.016795] yes=15,no=16,missing=15
+				15:[qs_match_high_clk_relev_cate<1] yes=29,no=30,missing=29
+					29:leaf=-0.00922451
+					30:leaf=0.0212601
+				16:[qs_pdw_img_sim<1.54959] yes=31,no=32,missing=31
+					31:leaf=-0.0237573
+					32:leaf=0.00199422
+			8:[bm25_2_dump<21.6218] yes=17,no=18,missing=17
+				17:[qs_attr_sim<0.999217] yes=33,no=34,missing=33
+					33:leaf=0.0125851
+					34:leaf=-0.0539129
+				18:[qs_prod_conflict_match_ratio<0.183333] yes=35,no=36,missing=35
+					35:leaf=0.0564321
+					36:leaf=-0.0256875
+		4:[qs_attr_value_sim<0.630483] yes=9,no=10,missing=9
+			9:[bm25_2_dump<6.85747] yes=19,no=20,missing=19
+				19:[qs_match_high_clk_relev_cate<1] yes=37,no=38,missing=37
+					37:leaf=0.086767
+					38:leaf=0.0265801
+				20:[q_has_attr<1] yes=39,no=40,missing=39
+					39:leaf=0.0462691
+					40:leaf=-0.0125496
+			10:[qs_term_co_click_iter1_norm<0.955441] yes=21,no=22,missing=21
+				21:[match_count<4] yes=41,no=42,missing=41
+					41:leaf=0.0716983
+					42:leaf=0.0116375
+				22:[window_size<8] yes=43,no=44,missing=43
+					43:leaf=0.0614269
+					44:leaf=-0.151343
+	2:[qs_prod_co_click_iter1_norm<0.829558] yes=5,no=6,missing=5
+		5:[qs_img_sim<1.64305] yes=11,no=12,missing=11
+			11:[qs_term_co_click_iter1_norm<0.181172] yes=23,no=24,missing=23
+				23:[qs_pdw_img_sim<1.61132] yes=45,no=46,missing=45
+					45:leaf=0.0420581
+					46:leaf=-0.087422
+				24:[q_has_product<1] yes=47,no=48,missing=47
+					47:leaf=0.0578768
+					48:leaf=-0.0694954
+			12:[qs_prod_co_click_iter1_norm<0.310375] yes=25,no=26,missing=25
+				25:[qs_product_match_synonyms<1] yes=49,no=50,missing=49
+					49:leaf=-0.0519276
+					50:leaf=0.0386782
+				26:[bm25_12_all_dump<21.504] yes=51,no=52,missing=51
+					51:leaf=0.0733091
+					52:leaf=-0.0121085
+		6:[qs_attr_value_sim<0.374193] yes=13,no=14,missing=13
+			13:leaf=-0.157976
+			14:[qs_term_co_click_iter1_norm<0.815621] yes=27,no=28,missing=27
+				27:[qs_attr_sim<0.767792] yes=53,no=54,missing=53
+					53:leaf=-0.0150908
+					54:leaf=-0.142703
+				28:[qs_prod_co_click_iter1_norm<0.914792] yes=55,no=56,missing=55
+					55:leaf=0.0844134
+					56:leaf=0.00329561
+booster[46]:
+0:[window_size<6] yes=1,no=2,missing=1
+	1:[q_has_brand<1] yes=3,no=4,missing=3
+		3:[q_has_product<1] yes=7,no=8,missing=7
+			7:[q_has_attr<1] yes=15,no=16,missing=15
+				15:[match_count<3] yes=31,no=32,missing=31
+					31:leaf=-0.091349
+					32:leaf=0.0670586
+				16:[qs_attr_sim<0.957497] yes=33,no=34,missing=33
+					33:leaf=0.00149912
+					34:leaf=0.0747489
+			8:[qs_prod_co_click_iter1_norm<0.993811] yes=17,no=18,missing=17
+				17:[bm25_12_dump<7.56628] yes=35,no=36,missing=35
+					35:leaf=0.02343
+					36:leaf=0.000329289
+				18:[qs_match_high_relev_cate<1] yes=37,no=38,missing=37
+					37:leaf=-0.0306525
+					38:leaf=0.0741444
+		4:[q_has_attr<1] yes=9,no=10,missing=9
+			9:[qs_prod_conflict_match_ratio<0.291667] yes=19,no=20,missing=19
+				19:[qs_attr_sim<0.0732216] yes=39,no=40,missing=39
+					39:leaf=-0.00490737
+					40:leaf=0.083321
+				20:[match_count<3] yes=41,no=42,missing=41
+					41:leaf=-0.110534
+					42:leaf=0.0274332
+			10:[qs_prod_match<1] yes=21,no=22,missing=21
+				21:[qs_attr_sim<0.989907] yes=43,no=44,missing=43
+					43:leaf=0.00289228
+					44:leaf=-0.0980119
+				22:[bm25_12_all_dump<62.9341] yes=45,no=46,missing=45
+					45:leaf=0.0605707
+					46:leaf=-0.0938559
+	2:[qs_attr_value_sim<0.562201] yes=5,no=6,missing=5
+		5:[qs_attr_sim<0.791701] yes=11,no=12,missing=11
+			11:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=23,no=24,missing=23
+				23:[q_has_product<1] yes=47,no=48,missing=47
+					47:leaf=0.0167709
+					48:leaf=-0.00979028
+				24:[qs_xinghaoci_co_click_iter1_norm<0.44207] yes=49,no=50,missing=49
+					49:leaf=-0.107217
+					50:leaf=-0.0300698
+			12:[bm25_12_all_dump<7.30254] yes=25,no=26,missing=25
+				25:[qs_attr_sim<0.835739] yes=51,no=52,missing=51
+					51:leaf=-0.0748767
+					52:leaf=0.0286627
+				26:[qs_term_co_click_iter1_norm<0.270279] yes=53,no=54,missing=53
+					53:leaf=-4.93763e-05
+					54:leaf=-0.0458316
+		6:[qs_prod_conflict_match_ratio<0.291667] yes=13,no=14,missing=13
+			13:[qs_attr_sim<0.997926] yes=27,no=28,missing=27
+				27:[qs_attr_value_sim<0.945643] yes=55,no=56,missing=55
+					55:leaf=0.0189892
+					56:leaf=-0.0544453
+				28:[bm25_12_all_dump<45.9231] yes=57,no=58,missing=57
+					57:leaf=-0.0507275
+					58:leaf=0.0841154
+			14:[qs_attr_sim<0.720859] yes=29,no=30,missing=29
+				29:[bm25_12_dump<10.1317] yes=59,no=60,missing=59
+					59:leaf=-0.0516759
+					60:leaf=0.0812111
+				30:[qs_attr_sim<0.991726] yes=61,no=62,missing=61
+					61:leaf=-0.0622391
+					62:leaf=0.052516
+booster[47]:
+0:[qs_img_sim<1.65034] yes=1,no=2,missing=1
+	1:[qs_pdw_img_sim<1.00771] yes=3,no=4,missing=3
+		3:[qs_prod_co_click_iter1_norm<0.450589] yes=7,no=8,missing=7
+			7:[qs_prod_co_click_iter1_norm<-0.5] yes=15,no=16,missing=15
+				15:[qs_match_product_relev_cate<1] yes=31,no=32,missing=31
+					31:leaf=0.00251898
+					32:leaf=0.0455729
+				16:[bm25_12_all_dump<6.33277] yes=33,no=34,missing=33
+					33:leaf=-0.0840805
+					34:leaf=-0.0126896
+			8:[bm25_2_dump<15.097] yes=17,no=18,missing=17
+				17:[qs_xinghaoci_co_click_iter1_norm<-0.45181] yes=35,no=36,missing=35
+					35:leaf=0.022178
+					36:leaf=-0.100952
+				18:[qs_sim_prod_match_ratio<0.464286] yes=37,no=38,missing=37
+					37:leaf=0.0679298
+					38:leaf=-0.0645128
+		4:[qs_pdw_img_sim<1.46371] yes=9,no=10,missing=9
+			9:[qs_match_product_relev_cate<1] yes=19,no=20,missing=19
+				19:[qs_term_co_click_iter1_norm<0.214465] yes=39,no=40,missing=39
+					39:leaf=-0.0627563
+					40:leaf=0.0129216
+				20:[qs_attr_sim<0.00134066] yes=41,no=42,missing=41
+					41:leaf=0.0799188
+					42:leaf=-0.0602136
+			10:[qs_product_match_cidname<1] yes=21,no=22,missing=21
+				21:[qs_term_co_click_iter1_norm<0.338344] yes=43,no=44,missing=43
+					43:leaf=-0.0150605
+					44:leaf=0.0092553
+				22:[qs_attr_value_sim<0.695973] yes=45,no=46,missing=45
+					45:leaf=-0.0324184
+					46:leaf=0.0309562
+	2:[window_size<9] yes=5,no=6,missing=5
+		5:[qs_term_co_click_iter1_norm<0.61355] yes=11,no=12,missing=11
+			11:[qs_attr_sim<0.149206] yes=23,no=24,missing=23
+				23:[qs_prod_co_click_iter1_norm<-0.5] yes=47,no=48,missing=47
+					47:leaf=0.0617656
+					48:leaf=-0.069437
+				24:[qs_match_high_clk_relev_cate<1] yes=49,no=50,missing=49
+					49:leaf=0.0359812
+					50:leaf=-0.00020967
+			12:[qs_attr_sim<0.782771] yes=25,no=26,missing=25
+				25:[qs_attr_value_sim<0.241974] yes=51,no=52,missing=51
+					51:leaf=0.0152305
+					52:leaf=0.0541224
+				26:[qs_attr_sim<0.787294] yes=53,no=54,missing=53
+					53:leaf=-0.205754
+					54:leaf=0.0185672
+		6:[qs_xinghaoci_co_click_iter1_norm<0.980139] yes=13,no=14,missing=13
+			13:[qs_xinghaoci_co_click_iter1_norm<0.0293741] yes=27,no=28,missing=27
+				27:[qs_prod_conflict_match_ratio<0.45] yes=55,no=56,missing=55
+					55:leaf=0.00502928
+					56:leaf=-0.029675
+				28:[qs_attr_sim<0.629712] yes=57,no=58,missing=57
+					57:leaf=-0.111873
+					58:leaf=-0.0195859
+			14:[bm25_2_all_dump<40.1636] yes=29,no=30,missing=29
+				29:[qs_xinghaoci_co_click_iter1_norm<0.999866] yes=59,no=60,missing=59
+					59:leaf=0.131429
+					60:leaf=0.0247711
+				30:[qs_attr_sim<0.903405] yes=61,no=62,missing=61
+					61:leaf=-0.0891265
+					62:leaf=0.0686161
+booster[48]:
+0:[q_product_is_broad<1] yes=1,no=2,missing=1
+	1:[qs_xinghaoci_co_click_iter1_norm<-0.5] yes=3,no=4,missing=3
+		3:[bm25_12_dump<13.4334] yes=7,no=8,missing=7
+			7:[bm25_12_dump<7.56628] yes=15,no=16,missing=15
+				15:[qs_img_sim<1.57491] yes=31,no=32,missing=31
+					31:leaf=-0.00593656
+					32:leaf=0.0156129
+				16:[bm25_2_dump<8.13909] yes=33,no=34,missing=33
+					33:leaf=-0.0458434
+					34:leaf=-0.00518372
+			8:[qs_term_co_click_iter1_norm<0.879681] yes=17,no=18,missing=17
+				17:[window_size<1] yes=35,no=36,missing=35
+					35:leaf=0.0240842
+					36:leaf=-0.00378
+				18:[bm25_2_all_dump<71.6152] yes=37,no=38,missing=37
+					37:leaf=0.0505892
+					38:leaf=-0.0292977
+		4:[qs_xinghaoci_co_click_iter1_norm<0.545695] yes=9,no=10,missing=9
+			9:[q_has_attr<1] yes=19,no=20,missing=19
+				19:[window_size<21] yes=39,no=40,missing=39
+					39:leaf=0.0789963
+					40:leaf=-0.0475493
+				20:[qs_attr_value_sim<0.547406] yes=41,no=42,missing=41
+					41:leaf=-0.0659136
+					42:leaf=-0.165776
+			10:[qs_attr_sim<0.975168] yes=21,no=22,missing=21
+				21:[bm25_2_all_dump<18.5784] yes=43,no=44,missing=43
+					43:leaf=0.0312782
+					44:leaf=-0.0436837
+				22:[qs_attr_value_sim<0.720243] yes=45,no=46,missing=45
+					45:leaf=-0.00861549
+					46:leaf=0.104096
+	2:[qs_attr_value_sim<0.630483] yes=5,no=6,missing=5
+		5:[bm25_2_dump<6.85747] yes=11,no=12,missing=11
+			11:[qs_match_high_clk_relev_cate<1] yes=23,no=24,missing=23
+				23:[qs_attr_sim<0.690316] yes=47,no=48,missing=47
+					47:leaf=0.090944
+					48:leaf=0.00932178
+				24:[qs_term_co_click_iter1_norm<0.490745] yes=49,no=50,missing=49
+					49:leaf=-0.0173811
+					50:leaf=0.055298
+			12:[q_has_attr<1] yes=25,no=26,missing=25
+				25:[qs_pdw_img_sim<1.41915] yes=51,no=52,missing=51
+					51:leaf=0.0975869
+					52:leaf=0.0238593
+				26:[qs_prod_conflict_match<1] yes=53,no=54,missing=53
+					53:leaf=-0.00377884
+					54:leaf=-0.0827497
+		6:[qs_term_co_click_iter1_norm<0.955441] yes=13,no=14,missing=13
+			13:[match_count<4] yes=27,no=28,missing=27
+				27:[is_same_field<1] yes=55,no=56,missing=55
+					55:leaf=0.032614
+					56:leaf=0.0779985
+				28:[window_size<39] yes=57,no=58,missing=57
+					57:leaf=0.0461967
+					58:leaf=-0.0974342
+			14:[window_size<8] yes=29,no=30,missing=29
+				29:leaf=0.0586373
+				30:leaf=-0.134732
+booster[49]:
+0:[qs_sim_prod_match<1] yes=1,no=2,missing=1
+	1:[qs_sim_prod_match_ratio<0.114379] yes=3,no=4,missing=3
+		3:[qs_attr_value_sim<0.681228] yes=7,no=8,missing=7
+			7:[qs_attr_value_sim<0.680874] yes=15,no=16,missing=15
+				15:[qs_attr_sim<0.829826] yes=31,no=32,missing=31
+					31:leaf=0.0012944
+					32:leaf=-0.0144186
+				16:leaf=-0.216892
+			8:[qs_attr_sim<0.987717] yes=17,no=18,missing=17
+				17:[qs_product_match_synonyms<1] yes=33,no=34,missing=33
+					33:leaf=0.016181
+					34:leaf=0.0605011
+				18:[qs_attr_sim<0.988175] yes=35,no=36,missing=35
+					35:leaf=-0.173428
+					36:leaf=-0.00420711
+		4:[qs_attr_sim<0.907735] yes=9,no=10,missing=9
+			9:[qs_sim_prod_match_ratio<0.236111] yes=19,no=20,missing=19
+				19:[qs_prod_co_click_iter1_norm<0.744362] yes=37,no=38,missing=37
+					37:leaf=0.0206124
+					38:leaf=-0.196135
+				20:[qs_sim_prod_match_ratio<0.55] yes=39,no=40,missing=39
+					39:leaf=0.0910392
+					40:leaf=-0.0520501
+			10:[qs_sim_prod_match_ratio<0.183333] yes=21,no=22,missing=21
+				21:[qs_prod_co_click_iter1_norm<0.827229] yes=41,no=42,missing=41
+					41:leaf=-0.115119
+					42:leaf=0.0676308
+				22:[qs_term_co_click_iter1_norm<-0.472421] yes=43,no=44,missing=43
+					43:leaf=-0.0306325
+					44:leaf=-0.217677
+	2:[qs_sim_prod_match_ratio<0.195238] yes=5,no=6,missing=5
+		5:[is_same_field<1] yes=11,no=12,missing=11
+			11:[qs_term_co_click_iter1_norm<0.432379] yes=23,no=24,missing=23
+				23:[qs_prod_co_click_iter1_norm<0.171659] yes=45,no=46,missing=45
+					45:leaf=0.047192
+					46:leaf=-0.106264
+				24:[qs_attr_value_sim<0.291036] yes=47,no=48,missing=47
+					47:leaf=-0.0746674
+					48:leaf=0.0230945
+			12:[bm25_12_dump<6.91388] yes=25,no=26,missing=25
+				25:[qs_sim_prod_match_ratio<0.0192029] yes=49,no=50,missing=49
+					49:leaf=-0.0256629
+					50:leaf=0.0613068
+				26:[qs_img_sim<1.77056] yes=51,no=52,missing=51
+					51:leaf=0.00922742
+					52:leaf=0.0502091
+		6:[bm25_2_dump<10.1987] yes=13,no=14,missing=13
+			13:[qs_attr_sim<0.992941] yes=27,no=28,missing=27
+				27:[qs_attr_value_sim<0.387322] yes=53,no=54,missing=53
+					53:leaf=-0.0303962
+					54:leaf=0.0103103
+				28:[qs_attr_sim<0.993054] yes=55,no=56,missing=55
+					55:leaf=-0.357739
+					56:leaf=-0.0619904
+			14:[qs_sim_prod_match_ratio<0.422619] yes=29,no=30,missing=29
+				29:[match_count<3] yes=57,no=58,missing=57
+					57:leaf=0.0721279
+					58:leaf=0.00921584
+				30:[qs_attr_value_sim<0.487778] yes=59,no=60,missing=59
+					59:leaf=-0.0378058
+					60:leaf=0.0313715
